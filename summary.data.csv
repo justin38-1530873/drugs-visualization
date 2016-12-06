@@ -1,95 +1,731 @@
-"","Drug.Name","Country.obtained...Departure.Country","Destination.Country","long.country.obtained","lat.country.obtained","long.destination.country","lat.destination.country"
-"1","Cocaine","Cuba","Jamaica",-77.781167,21.521757,-77.297508,18.109581
-"2","Cannabis Herb (Marijuana)","Cuba","Jamaica",-77.781167,21.521757,-77.297508,18.109581
-"4","Cocaine","Cuba","Russian Federation",-77.781167,21.521757,105.318756,61.52401
-"22","Heroin","Pakistan","Canada",69.345116,30.375321,-106.346771,56.130366
-"23","Heroin","Ecuador","United States",-78.183406,-1.831239,-95.712891,37.09024
-"24","Cannabis Herb (Marijuana)","Ecuador","Spain",-78.183406,-1.831239,-3.74922,40.463667
-"25","Cocaine","Spain","United States",-3.74922,40.463667,-95.712891,37.09024
-"26","Cocaine","Ecuador","Australia",-78.183406,-1.831239,133.775136,-25.274398
-"27","Cannabis Herb (Marijuana)","Ecuador","Australia",-78.183406,-1.831239,133.775136,-25.274398
-"39","Cocaine","Colombia","Ecuador",-74.297333,4.570868,-78.183406,-1.831239
-"44","Cannabis Herb (Marijuana)","Colombia","Ecuador",-74.297333,4.570868,-78.183406,-1.831239
-"45","Cocaine","Ecuador","United States",-78.183406,-1.831239,-95.712891,37.09024
-"48","Cannabis Herb (Marijuana)","Spain","Ecuador",-3.74922,40.463667,-78.183406,-1.831239
-"49","Cannabis Herb (Marijuana)","Ecuador","Colombia",-78.183406,-1.831239,-74.297333,4.570868
-"50","Heroin","Ecuador","Colombia",-78.183406,-1.831239,-74.297333,4.570868
-"51","Cocaine","Ecuador","Spain",-78.183406,-1.831239,-3.74922,40.463667
-"53","Cannabis Herb (Marijuana)","Jamaica","Bahamas",-77.297508,18.109581,-77.39628,25.03428
-"55","Cocaine","Jamaica","Bahamas",-77.297508,18.109581,-77.39628,25.03428
-"56","Cocaine","Ecuador","Cuba",-78.183406,-1.831239,-77.781167,21.521757
-"64","Cocaine","Boliva","Cuba",-63.588653,-16.290154,-77.781167,21.521757
-"65","Cocaine","Peru","Cuba",-75.015152,-9.189967,-77.781167,21.521757
-"68","Cannabis Herb (Marijuana)","United States","Cuba",-95.712891,37.09024,-77.781167,21.521757
-"69","Cocaine","Mexico","Cuba",-102.552784,23.634501,-77.781167,21.521757
-"72","Cocaine","El Salvador","Other",-88.89653,13.794185,-2.8812479,51.0802361
-"73","Cocaine","Honduras","El Salvador",-86.241905,15.199999,-88.89653,13.794185
-"74","Cocaine","Ecuador","Guatemala",-78.183406,-1.831239,-90.230759,15.783471
-"77","Heroin","Colombia","Honduras",-74.297333,4.570868,-86.241905,15.199999
-"78","Heroin","Ecuador","Mexico",-78.183406,-1.831239,-102.552784,23.634501
-"79","Cocaine","Costa Rica","Guatemala",-83.753428,9.748917,-90.230759,15.783471
-"84","Cocaine","Guatemala","El Salvador",-90.230759,15.783471,-88.89653,13.794185
-"86","Cocaine","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
-"87","Cannabis Herb (Marijuana)","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
-"91","Heroin","Guatemala","Russian Federation",-90.230759,15.783471,105.318756,61.52401
-"123","Heroin","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
-"170","Cannabis Herb (Marijuana)","Colombia","Puerto Rico",-74.297333,4.570868,-66.590149,18.220833
-"171","Cocaine","Colombia","Venezuela, Bolivarian Republic of",-74.297333,4.570868,-66.58973,6.42375
-"172","Cocaine","Colombia","Liberia",-74.297333,4.570868,-9.429499,6.428055
-"173","Cocaine","Colombia","China",-74.297333,4.570868,104.195397,35.86166
-"174","Cocaine","Colombia","Netherlands",-74.297333,4.570868,5.291266,52.132633
-"176","Cocaine","Colombia","South Africa",-74.297333,4.570868,22.937506,-30.559482
-"178","Cocaine","Colombia","United Kingdom",-74.297333,4.570868,-3.435973,55.378051
-"179","Cocaine","Colombia","Canada",-74.297333,4.570868,-106.346771,56.130366
-"180","Cocaine","Colombia","Morocco",-74.297333,4.570868,-7.09262,31.791702
-"181","Cocaine","Colombia","United States",-74.297333,4.570868,-95.712891,37.09024
-"183","Cocaine","Colombia","India",-74.297333,4.570868,78.96288,20.593684
-"184","Cocaine","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
-"189","Cocaine","Colombia","Portugal",-74.297333,4.570868,-8.224454,39.399872
-"190","Cocaine","Colombia","Costa Rica",-74.297333,4.570868,-83.753428,9.748917
-"191","Heroin","Colombia","China",-74.297333,4.570868,104.195397,35.86166
-"202","Cocaine","Colombia","Thailand",-74.297333,4.570868,100.992541,15.870032
-"206","Cocaine","Colombia","Malaysia",-74.297333,4.570868,101.975766,4.210484
-"214","Cocaine","Colombia","Ireland",-74.297333,4.570868,-8.24389,53.41291
-"228","Cannabis Herb (Marijuana)","Colombia","United Kingdom",-74.297333,4.570868,-3.435973,55.378051
-"229","Cocaine","Colombia","Russian Federation",-74.297333,4.570868,105.318756,61.52401
-"231","Cocaine","Colombia","Jamaica",-74.297333,4.570868,-77.297508,18.109581
-"235","Cocaine","Colombia","Nigeria",-74.297333,4.570868,8.675277,9.081999
-"239","Cocaine","Colombia","Greece",-74.297333,4.570868,21.824312,39.074208
-"240","Cocaine","Colombia","Mexico",-74.297333,4.570868,-102.552784,23.634501
-"244","Cocaine","Colombia","Australia",-74.297333,4.570868,133.775136,-25.274398
-"249","Cannabis Herb (Marijuana)","Colombia","Ireland",-74.297333,4.570868,-8.24389,53.41291
-"255","Cocaine","Colombia","Slovakia",-74.297333,4.570868,19.699024,48.669026
-"261","Cocaine","Colombia","Sierra Leone",-74.297333,4.570868,-11.779889,8.460555
-"271","Cocaine","Colombia","Dominica",-74.297333,4.570868,-61.370976,15.414999
-"272","Cocaine","Colombia","Romania",-74.297333,4.570868,24.96676,45.943161
-"278","Cocaine","Colombia","Cabo Verde",-74.297333,4.570868,-23.6051868,15.120142
-"288","Cannabis Herb (Marijuana)","Colombia","Iran, Islamic Republic of",-74.297333,4.570868,47.0571193,38.4703541
-"297","Cocaine","Colombia","Italy",-74.297333,4.570868,12.56738,41.87194
-"299","Cocaine","Colombia","Belgium",-74.297333,4.570868,4.469936,50.503887
-"313","Cannabis Herb (Marijuana)","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
-"339","Cocaine","Panama","Cuba",-80.782127,8.537981,-77.781167,21.521757
-"342","Cocaine","Colombia","Cuba",-74.297333,4.570868,-77.781167,21.521757
-"347","Cocaine","Boliva","Spain",-63.588653,-16.290154,-3.74922,40.463667
-"349","Cocaine","Peru","Russian Federation",-75.015152,-9.189967,105.318756,61.52401
-"351","Cocaine","Colombia","Togo",-74.297333,4.570868,0.824782,8.619543
-"361","Cocaine","Brazil","Mexico",-51.92528,-14.235004,-102.552784,23.634501
-"362","Cocaine","El Salvador","United States",-88.89653,13.794185,-95.712891,37.09024
-"367","Cocaine","Nicaragua","Guatemala",-85.207229,12.865416,-90.230759,15.783471
-"368","Heroin","Guatemala","United States",-90.230759,15.783471,-95.712891,37.09024
-"371","Cocaine","Nicaragua","El Salvador",-85.207229,12.865416,-88.89653,13.794185
-"374","Cocaine","El Salvador","Spain",-88.89653,13.794185,-3.74922,40.463667
-"406","Cocaine","Chile","Mexico",-71.542969,-35.675147,-102.552784,23.634501
-"408","Cannabis Herb (Marijuana)","Paraguay","Brazil",-58.443832,-23.442503,-51.92528,-14.235004
-"409","Cannabis Herb (Marijuana)","Paraguay","Netherlands",-58.443832,-23.442503,5.291266,52.132633
-"410","Cocaine","Costa Rica","Switzerland",-83.753428,9.748917,8.227512,46.818188
-"411","Cannabis Herb (Marijuana)","Saint Vincent and the Grenadines","Grenada",-61.1971628,13.2528179,-61.679,12.1165
-"412","Cannabis Herb (Marijuana)","Saint Vincent and the Grenadines","Trinidad and Tobago",-61.1971628,13.2528179,-61.222503,10.691803
-"413","Cannabis Herb (Marijuana)","Saint Vincent and the Grenadines","Antigua and Barbuda",-61.1971628,13.2528179,-61.796428,17.060816
-"416","Cannabis Herb (Marijuana)","Jamaica","Barbados",-77.297508,18.109581,-59.543198,13.193887
-"426","Cannabis Herb (Marijuana)","Saint Vincent and the Grenadines","Barbados",-61.1971628,13.2528179,-59.543198,13.193887
-"429","Cannabis Herb (Marijuana)","Paraguay","Argentina",-58.443832,-23.442503,-63.616672,-38.416097
-"436","Cocaine","Paraguay","Argentina",-58.443832,-23.442503,-63.616672,-38.416097
-"441","Heroin","Argentina","Spain",-63.616672,-38.416097,-3.74922,40.463667
-"460","Cocaine","Argentina","Uruguay",-63.616672,-38.416097,-55.765835,-32.522779
-"462","Cocaine","Boliva","Argentina",-63.588653,-16.290154,-63.616672,-38.416097
+"","Drug.Name","Region","Country.obtained...Departure.Country","Destination.Country","long.country.obtained","lat.country.obtained","long.destination.country","lat.destination.country"
+"1","Cannabis Herb (Marijuana)","Americas","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
+"5","Heroin","Asia","Pakistan","Sri Lanka",69.345116,30.375321,80.771797,7.873054
+"7","Heroin","Africa","South Africa","Tanzania",22.937506,-30.559482,34.888822,-6.369028
+"8","Heroin","Americas","Ecuador","United States",-78.183406,-1.831239,-95.712891,37.09024
+"9","Cannabis Herb (Marijuana)","Americas","Ecuador","Spain",-78.183406,-1.831239,-3.74922,40.463667
+"10","Cocaine","Americas","Spain","United States",-3.74922,40.463667,-95.712891,37.09024
+"11","Cocaine","Americas","Ecuador","Australia",-78.183406,-1.831239,NA,NA
+"12","Cannabis Herb (Marijuana)","Americas","Ecuador","Australia",-78.183406,-1.831239,NA,NA
+"24","Cocaine","Americas","Colombia","Ecuador",-74.297333,4.570868,-78.183406,-1.831239
+"29","Cannabis Herb (Marijuana)","Americas","Colombia","Ecuador",-74.297333,4.570868,-78.183406,-1.831239
+"30","Cocaine","Americas","Ecuador","United States",-78.183406,-1.831239,-95.712891,37.09024
+"33","Cannabis Herb (Marijuana)","Americas","Spain","Ecuador",-3.74922,40.463667,-78.183406,-1.831239
+"34","Cannabis Herb (Marijuana)","Americas","Ecuador","Colombia",-78.183406,-1.831239,-74.297333,4.570868
+"35","Heroin","Americas","Ecuador","Colombia",-78.183406,-1.831239,-74.297333,4.570868
+"36","Cocaine","Americas","Ecuador","Spain",-78.183406,-1.831239,-3.74922,40.463667
+"38","Heroin","Asia","Tajikistan","Kazakhstan",71.276093,38.861034,66.923684,48.019573
+"39","Heroin","Asia","Uzbekistan","Kazakhstan",64.585262,41.377491,66.923684,48.019573
+"41","Heroin","Asia","Kazakhstan","Russian Federation",66.923684,48.019573,105.318756,61.52401
+"42","Heroin","Asia","Kyrgyzstan","Kazakhstan",74.766098,41.20438,66.923684,48.019573
+"45","Heroin","Asia","Kyrgyzstan","Russian Federation",74.766098,41.20438,105.318756,61.52401
+"50","Heroin","Asia","Tajikistan","Russian Federation",71.276093,38.861034,105.318756,61.52401
+"58","Heroin","Asia","Kazakhstan","Ukraine",66.923684,48.019573,31.16558,48.379433
+"59","Heroin","Asia","Turkey","Kazakhstan",35.243322,38.963745,66.923684,48.019573
+"65","Cocaine","Europe","Belgium","Austria",4.469936,50.503887,14.550072,47.516231
+"66","Cocaine","Europe","Germany","Austria",10.451526,51.165691,14.550072,47.516231
+"67","Cocaine","Europe","Netherlands","Austria",5.291266,52.132633,14.550072,47.516231
+"69","Cannabis Herb (Marijuana)","Europe","Luxembourg","France",6.129583,49.815273,2.213749,46.227638
+"70","Cocaine","Europe","Dominican Republic","Luxembourg",-70.162651,18.735693,6.129583,49.815273
+"71","Cocaine","Europe","Netherlands","France",5.291266,52.132633,2.213749,46.227638
+"72","Heroin","Europe","Netherlands","France",5.291266,52.132633,2.213749,46.227638
+"73","Cannabis Herb (Marijuana)","Europe","Netherlands","Luxembourg",5.291266,52.132633,6.129583,49.815273
+"74","Heroin","Europe","Netherlands","Luxembourg",5.291266,52.132633,6.129583,49.815273
+"80","Cocaine","Europe","Belgium","Luxembourg",4.469936,50.503887,6.129583,49.815273
+"82","Cocaine","Europe","Brazil","Italy",-51.92528,-14.235004,12.56738,41.87194
+"83","Cannabis Herb (Marijuana)","Europe","Netherlands","France",5.291266,52.132633,2.213749,46.227638
+"91","Cocaine","Europe","Brazil","France",-51.92528,-14.235004,2.213749,46.227638
+"92","Cocaine","Europe","Brazil","Spain",-51.92528,-14.235004,-3.74922,40.463667
+"93","Cocaine","Europe","Chile","Portugal",-71.542969,-35.675147,-8.224454,39.399872
+"94","Cannabis Herb (Marijuana)","Europe","Netherlands","Portugal",5.291266,52.132633,-8.224454,39.399872
+"95","Cocaine","Europe","Brazil","Portugal",-51.92528,-14.235004,-8.224454,39.399872
+"100","Cocaine","Europe","Guinea-Bissau","Portugal",-15.180413,11.803749,-8.224454,39.399872
+"105","Cocaine","Europe","Brazil","Belgium",-51.92528,-14.235004,4.469936,50.503887
+"108","Cocaine","Europe","Spain","Portugal",-3.74922,40.463667,-8.224454,39.399872
+"109","Cocaine","Europe","Peru","Portugal",-75.015152,-9.189967,-8.224454,39.399872
+"110","Heroin","Europe","Spain","Portugal",-3.74922,40.463667,-8.224454,39.399872
+"112","Cannabis Herb (Marijuana)","Europe","Portugal","France",-8.224454,39.399872,2.213749,46.227638
+"114","Cannabis Herb (Marijuana)","Europe","United States","Portugal",-95.712891,37.09024,-8.224454,39.399872
+"116","Cocaine","Europe","Brazil","United Kingdom",-51.92528,-14.235004,-3.435973,55.378051
+"121","Cocaine","Europe","Brazil","Morocco",-51.92528,-14.235004,-7.09262,31.791702
+"123","Cocaine","Europe","Brazil","Germany",-51.92528,-14.235004,10.451526,51.165691
+"126","Cocaine","Europe","Venezuela, Bolivarian Republic of","Belgium",-66.58973,6.42375,4.469936,50.503887
+"136","Cocaine","Europe","Morocco","Portugal",-7.09262,31.791702,-8.224454,39.399872
+"139","Cocaine","Europe","Cabo Verde","Portugal",-23.6051868,15.120142,-8.224454,39.399872
+"144","Cannabis Herb (Marijuana)","Europe","United Arab Emirates","Portugal",53.847818,23.424076,-8.224454,39.399872
+"145","Cocaine","Europe","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
+"146","Cocaine","Europe","Dominican Republic","Spain",-70.162651,18.735693,-3.74922,40.463667
+"147","Cannabis Herb (Marijuana)","Europe","Spain","Finland",-3.74922,40.463667,25.748151,61.92411
+"149","Cocaine","Europe","Venezuela, Bolivarian Republic of","Spain",-66.58973,6.42375,-3.74922,40.463667
+"151","Cocaine","Europe","Panama","Spain",-80.782127,8.537981,-3.74922,40.463667
+"152","Cocaine","Europe","Colombia","Israel",-74.297333,4.570868,34.851612,31.046051
+"154","Cocaine","Europe","Boliva","Spain",-63.588653,-16.290154,-3.74922,40.463667
+"159","Cocaine","Europe","Argentina","Spain",-63.616672,-38.416097,-3.74922,40.463667
+"162","Cocaine","Europe","Paraguay","Spain",-58.443832,-23.442503,-3.74922,40.463667
+"163","Cocaine","Europe","Peru","Spain",-75.015152,-9.189967,-3.74922,40.463667
+"170","Cocaine","Europe","Germany","Spain",10.451526,51.165691,-3.74922,40.463667
+"172","Cocaine","Europe","Mexico","Spain",-102.552784,23.634501,-3.74922,40.463667
+"174","Cocaine","Europe","Portugal","Spain",-8.224454,39.399872,-3.74922,40.463667
+"176","Cocaine","Europe","Ecuador","Spain",-78.183406,-1.831239,-3.74922,40.463667
+"185","Heroin","Europe","Turkey","Spain",35.243322,38.963745,-3.74922,40.463667
+"186","Cocaine","Europe","Spain","Finland",-3.74922,40.463667,25.748151,61.92411
+"193","Cocaine","Europe","United States","Spain",-95.712891,37.09024,-3.74922,40.463667
+"195","Cocaine","Europe","Uruguay","Spain",-55.765835,-32.522779,-3.74922,40.463667
+"196","Heroin","Europe","India","Spain",78.96288,20.593684,-3.74922,40.463667
+"203","Cannabis Herb (Marijuana)","Europe","Spain","Germany",-3.74922,40.463667,10.451526,51.165691
+"205","Cocaine","Europe","Costa Rica","Spain",-83.753428,9.748917,-3.74922,40.463667
+"209","Cocaine","Europe","Argentina","Uruguay",-63.616672,-38.416097,-55.765835,-32.522779
+"234","Cocaine","Europe","Boliva","Netherlands",-63.588653,-16.290154,5.291266,52.132633
+"235","Cannabis Herb (Marijuana)","Europe","Morocco","Spain",-7.09262,31.791702,-3.74922,40.463667
+"238","Cannabis Herb (Marijuana)","Europe","Morocco","Finland",-7.09262,31.791702,25.748151,61.92411
+"239","Cocaine","Europe","Argentina","Uganda",-63.616672,-38.416097,32.290275,1.373333
+"250","Cannabis Herb (Marijuana)","Europe","Spain","Italy",-3.74922,40.463667,12.56738,41.87194
+"255","Cannabis Herb (Marijuana)","Europe","Spain","Switzerland",-3.74922,40.463667,8.227512,46.818188
+"256","Heroin","Europe","Spain","Finland",-3.74922,40.463667,25.748151,61.92411
+"269","Heroin","Europe","Pakistan","Spain",69.345116,30.375321,-3.74922,40.463667
+"273","Cocaine","Europe","Guatemala","Spain",-90.230759,15.783471,-3.74922,40.463667
+"277","Cocaine","Europe","Ecuador","Belgium",-78.183406,-1.831239,4.469936,50.503887
+"288","Cocaine","Europe","Chile","Spain",-71.542969,-35.675147,-3.74922,40.463667
+"289","Cocaine","Europe","Colombia","Finland",-74.297333,4.570868,25.748151,61.92411
+"300","Cocaine","Europe","Ethiopia","Spain",40.489673,9.145,-3.74922,40.463667
+"303","Cocaine","Europe","Peru","Austria",-75.015152,-9.189967,14.550072,47.516231
+"306","Cannabis Herb (Marijuana)","Africa","Algeria","France",1.659626,28.033886,2.213749,46.227638
+"308","Cocaine","Americas","El Salvador","Other",-88.89653,13.794185,-2.8812479,51.0802361
+"309","Cocaine","Americas","Honduras","El Salvador",-86.241905,15.199999,-88.89653,13.794185
+"310","Cocaine","Americas","Ecuador","Guatemala",-78.183406,-1.831239,-90.230759,15.783471
+"313","Heroin","Americas","Colombia","Honduras",-74.297333,4.570868,-86.241905,15.199999
+"314","Heroin","Americas","Ecuador","Mexico",-78.183406,-1.831239,-102.552784,23.634501
+"315","Cocaine","Americas","Costa Rica","Guatemala",-83.753428,9.748917,-90.230759,15.783471
+"320","Cocaine","Americas","Guatemala","El Salvador",-90.230759,15.783471,-88.89653,13.794185
+"322","Cocaine","Americas","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
+"330","Heroin","Asia","Turkey","Armenia",35.243322,38.963745,NA,NA
+"339","Cocaine","Asia","Colombia","Kazakhstan",-74.297333,4.570868,66.923684,48.019573
+"358","Cannabis Herb (Marijuana)","Europe","Ireland","Russian Federation",-8.24389,53.41291,105.318756,61.52401
+"359","Cannabis Herb (Marijuana)","Europe","Russian Federation","Ukraine",105.318756,61.52401,31.16558,48.379433
+"360","Cocaine","Europe","Germany","Russian Federation",10.451526,51.165691,105.318756,61.52401
+"361","Cocaine","Europe","Costa Rica","Russian Federation",-83.753428,9.748917,105.318756,61.52401
+"362","Cannabis Herb (Marijuana)","Europe","United Kingdom","Russian Federation",-3.435973,55.378051,105.318756,61.52401
+"363","Cannabis Herb (Marijuana)","Europe","Russian Federation","South Africa",105.318756,61.52401,22.937506,-30.559482
+"365","Cannabis Herb (Marijuana)","Europe","Netherlands","Russian Federation",5.291266,52.132633,105.318756,61.52401
+"366","Cocaine","Europe","Netherlands","Russian Federation",5.291266,52.132633,105.318756,61.52401
+"367","Cocaine","Europe","United States","Russian Federation",-95.712891,37.09024,105.318756,61.52401
+"372","Cannabis Herb (Marijuana)","Europe","South Africa","Russian Federation",22.937506,-30.559482,105.318756,61.52401
+"378","Cocaine","Europe","Guatemala","Austria",-90.230759,15.783471,14.550072,47.516231
+"379","Cannabis Herb (Marijuana)","Europe","Italy","Austria",12.56738,41.87194,14.550072,47.516231
+"380","Cannabis Herb (Marijuana)","Europe","Netherlands","Austria",5.291266,52.132633,14.550072,47.516231
+"381","Cocaine","Europe","Slovenia","Austria",14.995463,46.151241,14.550072,47.516231
+"382","Cannabis Herb (Marijuana)","Europe","Albania","Austria",20.168331,41.153332,14.550072,47.516231
+"383","Cannabis Herb (Marijuana)","Europe","Serbia","Austria",21.005859,44.016521,14.550072,47.516231
+"384","Cannabis Herb (Marijuana)","Europe","Bosnia and Herzegovina","Austria",17.679076,43.915886,14.550072,47.516231
+"386","Cocaine","Europe","Spain","Austria",-3.74922,40.463667,14.550072,47.516231
+"387","Cannabis Herb (Marijuana)","Europe","Italy","Germany",12.56738,41.87194,10.451526,51.165691
+"389","Heroin","Europe","Slovenia","Austria",14.995463,46.151241,14.550072,47.516231
+"390","Heroin","Europe","Italy","Austria",12.56738,41.87194,14.550072,47.516231
+"391","Heroin","Europe","Austria","Netherlands",14.550072,47.516231,5.291266,52.132633
+"398","Cannabis Herb (Marijuana)","Europe","Slovenia","Austria",14.995463,46.151241,14.550072,47.516231
+"399","Heroin","Europe","Bulgaria","Austria",25.48583,42.733883,14.550072,47.516231
+"400","Heroin","Europe","Pakistan","Austria",69.345116,30.375321,14.550072,47.516231
+"404","Heroin","Europe","Czech Republic","Austria",15.472962,49.817492,14.550072,47.516231
+"405","Cannabis Herb (Marijuana)","Europe","Austria","Germany",14.550072,47.516231,10.451526,51.165691
+"409","Cannabis Herb (Marijuana)","Europe","Czech Republic","Austria",15.472962,49.817492,14.550072,47.516231
+"410","Heroin","Europe","Macedonia, the former Yugoslav Republic of","Austria",NA,NA,14.550072,47.516231
+"417","Cocaine","Europe","Portugal","Austria",-8.224454,39.399872,14.550072,47.516231
+"418","Cannabis Herb (Marijuana)","Europe","Spain","Luxembourg",-3.74922,40.463667,6.129583,49.815273
+"419","Cannabis Herb (Marijuana)","Europe","Luxembourg","Portugal",6.129583,49.815273,-8.224454,39.399872
+"420","Cannabis Herb (Marijuana)","Europe","Luxembourg","Austria",6.129583,49.815273,14.550072,47.516231
+"424","Cannabis Herb (Marijuana)","Europe","Luxembourg","Greece",6.129583,49.815273,21.824312,39.074208
+"429","Cocaine","Europe","Portugal","Switzerland",-8.224454,39.399872,8.227512,46.818188
+"432","Heroin","Europe","India","Portugal",78.96288,20.593684,-8.224454,39.399872
+"433","Cocaine","Europe","Trinidad and Tobago","Portugal",-61.222503,10.691803,-8.224454,39.399872
+"434","Cocaine","Europe","Brazil","Greece",-51.92528,-14.235004,21.824312,39.074208
+"437","Cocaine","Europe","Senegal","United Kingdom (England and Wales)",-14.452362,14.497401,-0.0576251,51.5051117
+"438","Cocaine","Europe","Colombia","Portugal",-74.297333,4.570868,-8.224454,39.399872
+"443","Heroin","Europe","Indonesia","Portugal",113.921327,-0.789275,-8.224454,39.399872
+"445","Cocaine","Europe","Venezuela, Bolivarian Republic of","Italy",-66.58973,6.42375,12.56738,41.87194
+"446","Cocaine","Europe","Brazil","Netherlands",-51.92528,-14.235004,5.291266,52.132633
+"447","Cocaine","Europe","Portugal","France",-8.224454,39.399872,2.213749,46.227638
+"448","Heroin","Europe","Portugal","Spain",-8.224454,39.399872,-3.74922,40.463667
+"463","Cocaine","Europe","France","Spain",2.213749,46.227638,-3.74922,40.463667
+"465","Cannabis Herb (Marijuana)","Europe","Andorra","Spain",1.521801,42.506285,-3.74922,40.463667
+"466","Cannabis Herb (Marijuana)","Europe","Spain","Ireland",-3.74922,40.463667,-8.24389,53.41291
+"472","Cocaine","Europe","Ecuador","Kuwait",-78.183406,-1.831239,NA,NA
+"476","Cannabis Herb (Marijuana)","Europe","Spain","France",-3.74922,40.463667,2.213749,46.227638
+"502","Cocaine","Europe","Argentina","Nigeria",-63.616672,-38.416097,8.675277,9.081999
+"504","Cannabis Herb (Marijuana)","Europe","Spain","United Kingdom",-3.74922,40.463667,-3.435973,55.378051
+"530","Cocaine","Europe","Costa Rica","Ireland",-83.753428,9.748917,-8.24389,53.41291
+"534","Cocaine","Europe","India","Spain",78.96288,20.593684,-3.74922,40.463667
+"538","Cocaine","Europe","Costa Rica","Belgium",-83.753428,9.748917,4.469936,50.503887
+"548","Cocaine","Europe","Colombia","Sweden",-74.297333,4.570868,NA,NA
+"549","Cocaine","Europe","Cameroon","Spain",12.354722,7.369722,-3.74922,40.463667
+"573","Cocaine","Europe","Andorra","Spain",1.521801,42.506285,-3.74922,40.463667
+"576","Cocaine","Europe","Brazil","Togo",-51.92528,-14.235004,0.824782,8.619543
+"579","Heroin","Europe","South Africa","Spain",22.937506,-30.559482,-3.74922,40.463667
+"583","Cannabis Herb (Marijuana)","Europe","Spain","Netherlands",-3.74922,40.463667,5.291266,52.132633
+"596","Cocaine","Europe","El Salvador","Germany",-88.89653,13.794185,10.451526,51.165691
+"615","Cocaine","Europe","Colombia","Thailand",-74.297333,4.570868,100.992541,15.870032
+"643","Cocaine","Europe","Spain","Monaco",-3.74922,40.463667,NA,NA
+"656","Cannabis Herb (Marijuana)","Europe","Spain","Portugal",-3.74922,40.463667,-8.224454,39.399872
+"657","Cocaine","Europe","Spain","Andorra",-3.74922,40.463667,1.521801,42.506285
+"690","Cocaine","Europe","Ecuador","Turkey",-78.183406,-1.831239,35.243322,38.963745
+"693","Cocaine","Europe","Brazil","Nigeria",-51.92528,-14.235004,8.675277,9.081999
+"701","Cocaine","Europe","Belgium","Spain",4.469936,50.503887,-3.74922,40.463667
+"703","Cocaine","Europe","Spain","France",-3.74922,40.463667,2.213749,46.227638
+"757","Cocaine","Europe","Nicaragua","Spain",-85.207229,12.865416,-3.74922,40.463667
+"765","Cocaine","Europe","Colombia","Italy",-74.297333,4.570868,12.56738,41.87194
+"774","Cocaine","Europe","Panama","Belgium",-80.782127,8.537981,4.469936,50.503887
+"775","Heroin","Europe","United Arab Emirates","Spain",53.847818,23.424076,-3.74922,40.463667
+"781","Cocaine","Europe","Spain","United Kingdom",-3.74922,40.463667,-3.435973,55.378051
+"785","Cocaine","Europe","Morocco","Spain",-7.09262,31.791702,-3.74922,40.463667
+"790","Cocaine","Europe","Spain","Italy",-3.74922,40.463667,12.56738,41.87194
+"796","Cocaine","Europe","Guinea-Bissau","Spain",-15.180413,11.803749,-3.74922,40.463667
+"817","Heroin","Europe","Austria","Spain",14.550072,47.516231,-3.74922,40.463667
+"824","Cocaine","Europe","Spain","Germany",-3.74922,40.463667,10.451526,51.165691
+"827","Cocaine","Europe","Colombia","Jordan",-74.297333,4.570868,NA,NA
+"830","Cocaine","Europe","Peru","Morocco",-75.015152,-9.189967,-7.09262,31.791702
+"831","Cannabis Herb (Marijuana)","Europe","Spain","Romania",-3.74922,40.463667,24.96676,45.943161
+"836","Cocaine","Europe","Nigeria","Italy",8.675277,9.081999,12.56738,41.87194
+"859","Cocaine","Europe","Brazil","India",-51.92528,-14.235004,78.96288,20.593684
+"861","Cocaine","Europe","Ecuador","Saudi Arabia",-78.183406,-1.831239,NA,NA
+"884","Cannabis Herb (Marijuana)","Europe","Spain","Latvia",-3.74922,40.463667,24.603189,56.879635
+"925","Cocaine","Europe","Nigeria","Spain",8.675277,9.081999,-3.74922,40.463667
+"941","Cannabis Herb (Marijuana)","Europe","Netherlands","Spain",5.291266,52.132633,-3.74922,40.463667
+"952","Cocaine","Europe","Costa Rica","Slovenia",-83.753428,9.748917,14.995463,46.151241
+"993","Cocaine","Europe","Switzerland","Spain",8.227512,46.818188,-3.74922,40.463667
+"995","Cocaine","Europe","Panama","Nicaragua",-80.782127,8.537981,-85.207229,12.865416
+"999","Cocaine","Europe","Spain","Ireland",-3.74922,40.463667,-8.24389,53.41291
+"1005","Cocaine","Europe","Costa Rica","Cameroon",-83.753428,9.748917,12.354722,7.369722
+"1028","Cocaine","Europe","Spain","Croatia",-3.74922,40.463667,NA,NA
+"1030","Cocaine","Europe","Spain","Greece",-3.74922,40.463667,21.824312,39.074208
+"1031","Cannabis Herb (Marijuana)","Europe","Spain","Colombia",-3.74922,40.463667,-74.297333,4.570868
+"1038","Cannabis Herb (Marijuana)","Europe","United Kingdom","Spain",-3.435973,55.378051,-3.74922,40.463667
+"1039","Heroin","Europe","Malaysia","Spain",101.975766,4.210484,-3.74922,40.463667
+"1044","Heroin","Europe","Qatar","Spain",51.183884,25.354826,-3.74922,40.463667
+"1045","Cannabis Herb (Marijuana)","Europe","France","Spain",2.213749,46.227638,-3.74922,40.463667
+"1055","Cannabis Herb (Marijuana)","Europe","Spain","Other",-3.74922,40.463667,-2.8812479,51.0802361
+"1070","Cannabis Herb (Marijuana)","Europe","Spain","Brazil",-3.74922,40.463667,-51.92528,-14.235004
+"1082","Cocaine","Europe","Spain","Switzerland",-3.74922,40.463667,8.227512,46.818188
+"1087","Cocaine","Europe","Chile","Nigeria",-71.542969,-35.675147,8.675277,9.081999
+"1090","Heroin","Europe","Spain","France",-3.74922,40.463667,2.213749,46.227638
+"1092","Cocaine","Europe","Spain","Russian Federation",-3.74922,40.463667,105.318756,61.52401
+"1093","Cocaine","Europe","Ecuador","Germany",-78.183406,-1.831239,10.451526,51.165691
+"1101","Cocaine","Europe","Brazil","Slovenia",-51.92528,-14.235004,14.995463,46.151241
+"1122","Cocaine","Europe","Turkey","Spain",35.243322,38.963745,-3.74922,40.463667
+"1135","Cocaine","Europe","Costa Rica","Morocco",-83.753428,9.748917,-7.09262,31.791702
+"1163","Cocaine","Europe","Ecuador","Netherlands",-78.183406,-1.831239,5.291266,52.132633
+"1165","Cannabis Herb (Marijuana)","Europe","Spain","Czech Republic",-3.74922,40.463667,15.472962,49.817492
+"1178","Cocaine","Europe","Ecuador","Portugal",-78.183406,-1.831239,-8.224454,39.399872
+"1181","Cannabis Herb (Marijuana)","Europe","Spain","Lithuania",-3.74922,40.463667,23.881275,55.169438
+"1182","Cocaine","Europe","Spain","Lithuania",-3.74922,40.463667,23.881275,55.169438
+"1188","Cocaine","Europe","Peru","Italy",-75.015152,-9.189967,12.56738,41.87194
+"1191","Cocaine","Europe","Ecuador","Russian Federation",-78.183406,-1.831239,105.318756,61.52401
+"1203","Cocaine","Europe","Dominican Republic","Germany",-70.162651,18.735693,10.451526,51.165691
+"1206","Cocaine","Europe","Costa Rica","Netherlands",-83.753428,9.748917,5.291266,52.132633
+"1219","Cocaine","Europe","Qatar","Spain",51.183884,25.354826,-3.74922,40.463667
+"1230","Cannabis Herb (Marijuana)","Europe","Portugal","Spain",-8.224454,39.399872,-3.74922,40.463667
+"1239","Cocaine","Europe","United Kingdom","Spain",-3.435973,55.378051,-3.74922,40.463667
+"1260","Cannabis Herb (Marijuana)","Europe","Spain","Morocco",-3.74922,40.463667,-7.09262,31.791702
+"1262","Cocaine","Europe","Brazil","Switzerland",-51.92528,-14.235004,8.227512,46.818188
+"1307","Cocaine","Europe","Cuba","Israel",-77.781167,21.521757,34.851612,31.046051
+"1310","Cocaine","Europe","El Salvador","Spain",-88.89653,13.794185,-3.74922,40.463667
+"1321","Cocaine","Europe","Peru","United Kingdom",-75.015152,-9.189967,-3.435973,55.378051
+"1322","Cocaine","Europe","Dominican Republic","Switzerland",-70.162651,18.735693,8.227512,46.818188
+"1323","Heroin","","India","China",78.96288,20.593684,104.195397,35.86166
+"1324","Cannabis Herb (Marijuana)","Africa","Ghana","United Kingdom",-1.023194,7.946527,-3.435973,55.378051
+"1325","Cannabis Herb (Marijuana)","Africa","Ghana","China",-1.023194,7.946527,104.195397,35.86166
+"1326","Cocaine","Africa","Brazil","Ghana",-51.92528,-14.235004,-1.023194,7.946527
+"1327","Cocaine","Africa","Other","Ghana",-2.8812479,51.0802361,-1.023194,7.946527
+"1330","Cocaine","Africa","Panama","Ghana",-80.782127,8.537981,-1.023194,7.946527
+"1332","Cocaine","Africa","Tanzania, United Republic of","Ghana",NA,NA,-1.023194,7.946527
+"1336","Heroin","Africa","Uganda","Ghana",32.290275,1.373333,-1.023194,7.946527
+"1338","Cocaine","Africa","Guyana","Ghana",-58.93018,4.860416,-1.023194,7.946527
+"1339","Cocaine","Africa","Ghana","Spain",-1.023194,7.946527,-3.74922,40.463667
+"1340","Cocaine","Africa","Brazil","Nigeria",-51.92528,-14.235004,8.675277,9.081999
+"1341","Cocaine","Africa","Nigeria","Gabon",8.675277,9.081999,NA,NA
+"1342","Cocaine","Africa","Nigeria","India",8.675277,9.081999,78.96288,20.593684
+"1343","Cocaine","Africa","Nigeria","Senegal",8.675277,9.081999,-14.452362,14.497401
+"1344","Cocaine","Africa","Nigeria","Pakistan",8.675277,9.081999,69.345116,30.375321
+"1348","Cocaine","Americas","El Salvador","United States",-88.89653,13.794185,-95.712891,37.09024
+"1349","Cocaine","Americas","Colombia","United States",-74.297333,4.570868,-95.712891,37.09024
+"1353","Cocaine","Americas","Nicaragua","Guatemala",-85.207229,12.865416,-90.230759,15.783471
+"1354","Heroin","Americas","Guatemala","United States",-90.230759,15.783471,-95.712891,37.09024
+"1357","Cocaine","Americas","Nicaragua","El Salvador",-85.207229,12.865416,-88.89653,13.794185
+"1360","Cocaine","Americas","El Salvador","Spain",-88.89653,13.794185,-3.74922,40.463667
+"1361","Heroin","Americas","Guatemala","Mexico",-90.230759,15.783471,-102.552784,23.634501
+"1364","Heroin","Europe","Netherlands","Russian Federation",5.291266,52.132633,105.318756,61.52401
+"1365","Cocaine","Europe","Canada","Russian Federation",-106.346771,56.130366,105.318756,61.52401
+"1366","Cannabis Herb (Marijuana)","Europe","India","Russian Federation",78.96288,20.593684,105.318756,61.52401
+"1367","Cannabis Herb (Marijuana)","Europe","Mexico","Russian Federation",-102.552784,23.634501,105.318756,61.52401
+"1368","Cannabis Herb (Marijuana)","Europe","Czech Republic","Russian Federation",15.472962,49.817492,105.318756,61.52401
+"1370","Cannabis Herb (Marijuana)","Europe","Ukraine","Russian Federation",31.16558,48.379433,105.318756,61.52401
+"1371","Cannabis Herb (Marijuana)","Europe","Hungary","Russian Federation",19.503304,47.162494,105.318756,61.52401
+"1372","Cannabis Herb (Marijuana)","Europe","Philippines","Russian Federation",121.774017,12.879721,105.318756,61.52401
+"1373","Cannabis Herb (Marijuana)","Europe","Canada","Russian Federation",-106.346771,56.130366,105.318756,61.52401
+"1375","Cannabis Herb (Marijuana)","Europe","Kosovo under UNSCR 1244","Other",NA,NA,-2.8812479,51.0802361
+"1377","Cocaine","Europe","Costa Rica","Austria",-83.753428,9.748917,14.550072,47.516231
+"1380","Cocaine","Europe","Italy","Austria",12.56738,41.87194,14.550072,47.516231
+"1382","Heroin","Europe","Switzerland","Austria",8.227512,46.818188,14.550072,47.516231
+"1383","Heroin","Europe","Kosovo under UNSCR 1244","Austria",NA,NA,14.550072,47.516231
+"1388","Cocaine","Europe","Czech Republic","Austria",15.472962,49.817492,14.550072,47.516231
+"1389","Heroin","Europe","Serbia","Austria",21.005859,44.016521,14.550072,47.516231
+"1391","Cocaine","Europe","Dominican Republic","Austria",-70.162651,18.735693,14.550072,47.516231
+"1392","Cannabis Herb (Marijuana)","Europe","Poland","Austria",19.145136,51.919438,14.550072,47.516231
+"1395","Cocaine","Europe","Slovakia","Austria",19.699024,48.669026,14.550072,47.516231
+"1399","Heroin","Europe","United Arab Emirates","Austria",53.847818,23.424076,14.550072,47.516231
+"1400","Heroin","Europe","Slovakia","Austria",19.699024,48.669026,14.550072,47.516231
+"1404","Heroin","Europe","Germany","Austria",10.451526,51.165691,14.550072,47.516231
+"1405","Cocaine","Europe","Greece","Cyprus",21.824312,39.074208,NA,NA
+"1406","Heroin","Europe","Uganda","Czech Republic",32.290275,1.373333,15.472962,49.817492
+"1407","Cocaine","Europe","Costa Rica","Czech Republic",-83.753428,9.748917,15.472962,49.817492
+"1408","Cannabis Herb (Marijuana)","Europe","Czech Republic","Hungary",15.472962,49.817492,19.503304,47.162494
+"1409","Cannabis Herb (Marijuana)","Europe","Greece","Netherlands",21.824312,39.074208,5.291266,52.132633
+"1410","Cannabis Herb (Marijuana)","Europe","Netherlands","Ireland",5.291266,52.132633,-8.24389,53.41291
+"1411","Cannabis Herb (Marijuana)","Europe","Latvia","Bulgaria",24.603189,56.879635,25.48583,42.733883
+"1412","Cannabis Herb (Marijuana)","Europe","Latvia","Ireland",24.603189,56.879635,-8.24389,53.41291
+"1413","Cannabis Herb (Marijuana)","Europe","Latvia","Estonia",24.603189,56.879635,NA,NA
+"1414","Cannabis Herb (Marijuana)","Europe","Latvia","Sweden",24.603189,56.879635,NA,NA
+"1436","Cocaine","Europe","Argentina","South Africa",-63.616672,-38.416097,22.937506,-30.559482
+"1444","Cocaine","Europe","Argentina","Gabon",-63.616672,-38.416097,NA,NA
+"1450","Cocaine","Europe","Costa Rica","Germany",-83.753428,9.748917,10.451526,51.165691
+"1459","Cocaine","Europe","Costa Rica","Israel",-83.753428,9.748917,34.851612,31.046051
+"1470","Cocaine","Europe","Colombia","France",-74.297333,4.570868,2.213749,46.227638
+"1497","Cocaine","Europe","Colombia","Netherlands",-74.297333,4.570868,5.291266,52.132633
+"1514","Cocaine","Europe","Morocco","Netherlands",-7.09262,31.791702,5.291266,52.132633
+"1554","Cocaine","Europe","Brazil","Senegal",-51.92528,-14.235004,-14.452362,14.497401
+"1557","Cocaine","Europe","Peru","Belgium",-75.015152,-9.189967,4.469936,50.503887
+"1575","Cocaine","Europe","Boliva","Portugal",-63.588653,-16.290154,-8.224454,39.399872
+"1579","Heroin","Europe","Afghanistan","Spain",67.709953,33.93911,-3.74922,40.463667
+"1580","Cocaine","Europe","Netherlands","Spain",5.291266,52.132633,-3.74922,40.463667
+"1597","Cocaine","Europe","Peru","France",-75.015152,-9.189967,2.213749,46.227638
+"1616","Heroin","Europe","Uganda","Netherlands",32.290275,1.373333,5.291266,52.132633
+"1620","Cocaine","Europe","Dominican Republic","Italy",-70.162651,18.735693,12.56738,41.87194
+"1631","Cannabis Herb (Marijuana)","Europe","Spain","Armenia",-3.74922,40.463667,NA,NA
+"1636","Cocaine","Europe","Chile","Togo",-71.542969,-35.675147,0.824782,8.619543
+"1658","Cocaine","Europe","Spain","Denmark",-3.74922,40.463667,NA,NA
+"1676","Cocaine","Europe","Costa Rica","United Kingdom",-83.753428,9.748917,-3.435973,55.378051
+"1681","Heroin","Europe","Netherlands","Spain",5.291266,52.132633,-3.74922,40.463667
+"1686","Heroin","Europe","France","Spain",2.213749,46.227638,-3.74922,40.463667
+"1697","Cocaine","Europe","Colombia","Belgium",-74.297333,4.570868,4.469936,50.503887
+"1714","Cocaine","Europe","Panama","United Kingdom",-80.782127,8.537981,-3.435973,55.378051
+"1718","Cocaine","Europe","Boliva","Belgium",-63.588653,-16.290154,4.469936,50.503887
+"1722","Cocaine","Europe","Dominican Republic","Netherlands",-70.162651,18.735693,5.291266,52.132633
+"1730","Cocaine","Europe","Boliva","Switzerland",-63.588653,-16.290154,8.227512,46.818188
+"1732","Cocaine","Europe","Brazil","Romania",-51.92528,-14.235004,24.96676,45.943161
+"1735","Cocaine","Europe","Ghana","Spain",-1.023194,7.946527,-3.74922,40.463667
+"1746","Heroin","Europe","Uganda","Spain",32.290275,1.373333,-3.74922,40.463667
+"1754","Heroin","Europe","Kenya","Spain",37.906193,-0.023559,-3.74922,40.463667
+"1763","Cocaine","Europe","Costa Rica","South Africa",-83.753428,9.748917,22.937506,-30.559482
+"1801","Cocaine","Europe","Argentina","Portugal",-63.616672,-38.416097,-8.224454,39.399872
+"1813","Cannabis Herb (Marijuana)","Europe","Spain","Macedonia",-3.74922,40.463667,21.745275,41.608635
+"1836","Cocaine","Europe","Costa Rica","Niger",-83.753428,9.748917,NA,NA
+"1873","Cannabis Herb (Marijuana)","Europe","Gambia","Spain",-15.310139,13.443182,-3.74922,40.463667
+"1886","Cocaine","Europe","South Africa","Spain",22.937506,-30.559482,-3.74922,40.463667
+"1892","Cocaine","Europe","Costa Rica","Italy",-83.753428,9.748917,12.56738,41.87194
+"1922","Cocaine","Europe","Spain","Netherlands",-3.74922,40.463667,5.291266,52.132633
+"1963","Heroin","Europe","Germany","Ethiopia",10.451526,51.165691,40.489673,9.145
+"2028","Cocaine","Europe","Brazil","Cabo Verde",-51.92528,-14.235004,-23.6051868,15.120142
+"2029","Cocaine","Europe","Spain","Norway",-3.74922,40.463667,NA,NA
+"2045","Cannabis Herb (Marijuana)","Europe","Spain","Poland",-3.74922,40.463667,19.145136,51.919438
+"2050","Cocaine","Europe","Costa Rica","Egypt",-83.753428,9.748917,30.802498,26.820553
+"2132","Cannabis Herb (Marijuana)","Europe","Spain","Andorra",-3.74922,40.463667,1.521801,42.506285
+"2139","Cannabis Herb (Marijuana)","Europe","Germany","Spain",10.451526,51.165691,-3.74922,40.463667
+"2156","Cocaine","Europe","Trinidad and Tobago","Spain",-61.222503,10.691803,-3.74922,40.463667
+"2170","Cocaine","Europe","Spain","Sweden",-3.74922,40.463667,NA,NA
+"2180","Cocaine","Europe","Costa Rica","India",-83.753428,9.748917,78.96288,20.593684
+"2203","Cocaine","Europe","Suriname","Togo",-56.027783,3.919305,0.824782,8.619543
+"2224","Cocaine","Europe","Colombia","South Africa",-74.297333,4.570868,22.937506,-30.559482
+"2245","Cocaine","Europe","Costa Rica","Nigeria",-83.753428,9.748917,8.675277,9.081999
+"2246","Cocaine","Europe","Colombia","Germany",-74.297333,4.570868,10.451526,51.165691
+"2248","Cocaine","Europe","Honduras","Spain",-86.241905,15.199999,-3.74922,40.463667
+"2260","Cocaine","Europe","Brazil","Thailand",-51.92528,-14.235004,100.992541,15.870032
+"2263","Cocaine","Europe","Argentina","Belgium",-63.616672,-38.416097,4.469936,50.503887
+"2269","Cocaine","Europe","Brazil","Singapore",-51.92528,-14.235004,NA,NA
+"2272","Cocaine","Europe","Spain","Romania",-3.74922,40.463667,24.96676,45.943161
+"2297","Cocaine","Europe","United States","Mali",-95.712891,37.09024,NA,NA
+"2320","Cocaine","Europe","Suriname","Belgium",-56.027783,3.919305,4.469936,50.503887
+"2336","Heroin","Europe","Tanzania, United Republic of","Spain",NA,NA,-3.74922,40.463667
+"2344","Cocaine","Europe","Ecuador","France",-78.183406,-1.831239,2.213749,46.227638
+"2360","Cocaine","Europe","Costa Rica","Slovakia",-83.753428,9.748917,19.699024,48.669026
+"2366","Cannabis Herb (Marijuana)","Europe","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
+"2400","Cannabis Herb (Marijuana)","Europe","Ghana","United Kingdom",-1.023194,7.946527,-3.435973,55.378051
+"2435","Cocaine","Asia","Colombia","China",-74.297333,4.570868,104.195397,35.86166
+"2436","Cocaine","Asia","Malaysia","China",101.975766,4.210484,104.195397,35.86166
+"2440","Heroin","Africa","Pakistan","Tanzania",69.345116,30.375321,34.888822,-6.369028
+"2441","Heroin","Africa","Pakistan","South Africa",69.345116,30.375321,22.937506,-30.559482
+"2443","Cocaine","Africa","Pakistan","South Africa",69.345116,30.375321,22.937506,-30.559482
+"2444","Cannabis Herb (Marijuana)","Africa","Malawi","Zambia",34.301525,-13.254308,27.849332,-13.133897
+"2445","Cocaine","Americas","Cuba","Jamaica",-77.781167,21.521757,-77.297508,18.109581
+"2446","Cannabis Herb (Marijuana)","Americas","Cuba","Jamaica",-77.781167,21.521757,-77.297508,18.109581
+"2448","Cocaine","Americas","Cuba","Russian Federation",-77.781167,21.521757,105.318756,61.52401
+"2466","Heroin","Americas","Pakistan","Canada",69.345116,30.375321,-106.346771,56.130366
+"2467","Heroin","Asia","Pakistan","Malaysia",69.345116,30.375321,101.975766,4.210484
+"2468","Cocaine","Asia","Colombia","Philippines",-74.297333,4.570868,121.774017,12.879721
+"2469","Cocaine","Asia","United Arab Emirates","Philippines",53.847818,23.424076,121.774017,12.879721
+"2470","Heroin","Asia","Pakistan","Saudi Arabia",69.345116,30.375321,NA,NA
+"2471","Heroin","Asia","Pakistan","Thailand",69.345116,30.375321,100.992541,15.870032
+"2473","Heroin","Asia","Pakistan","Zambia",69.345116,30.375321,27.849332,-13.133897
+"2474","Heroin","Asia","Pakistan","Spain",69.345116,30.375321,-3.74922,40.463667
+"2475","Heroin","Asia","Pakistan","United Arab Emirates",69.345116,30.375321,53.847818,23.424076
+"2476","Heroin","Asia","Pakistan","United Kingdom",69.345116,30.375321,-3.435973,55.378051
+"2477","Heroin","Asia","Pakistan","Bahrain",69.345116,30.375321,50.5577,26.0667
+"2486","Cocaine","Asia","Pakistan","Brazil",69.345116,30.375321,-51.92528,-14.235004
+"2499","Heroin","Asia","Pakistan","C’‚te d'Ivoire",69.345116,30.375321,NA,NA
+"2504","Heroin","Asia","Pakistan","Ghana",69.345116,30.375321,-1.023194,7.946527
+"2521","Heroin","Asia","Pakistan","Bulgaria",69.345116,30.375321,25.48583,42.733883
+"2529","Heroin","Asia","Pakistan","Nigeria",69.345116,30.375321,8.675277,9.081999
+"2534","Heroin","Asia","Pakistan","South Africa",69.345116,30.375321,22.937506,-30.559482
+"2541","Heroin","Asia","Pakistan","Benin",69.345116,30.375321,2.315834,9.30769
+"2542","Heroin","Asia","Pakistan","France",69.345116,30.375321,2.213749,46.227638
+"2544","Cocaine","Asia","South Africa","Pakistan",22.937506,-30.559482,69.345116,30.375321
+"2546","Heroin","Asia","Pakistan","Italy",69.345116,30.375321,12.56738,41.87194
+"2561","Heroin","Asia","Pakistan","Canada",69.345116,30.375321,-106.346771,56.130366
+"2563","Heroin","Asia","Pakistan","China",69.345116,30.375321,104.195397,35.86166
+"2564","Heroin","Asia","Pakistan","Tanzania",69.345116,30.375321,34.888822,-6.369028
+"2570","Heroin","Asia","Pakistan","Netherlands",69.345116,30.375321,5.291266,52.132633
+"2573","Heroin","Asia","Pakistan","Greece",69.345116,30.375321,21.824312,39.074208
+"2579","Cocaine","Asia","Brazil","Pakistan",-51.92528,-14.235004,69.345116,30.375321
+"2592","Heroin","Asia","Pakistan","Qatar",69.345116,30.375321,51.183884,25.354826
+"2600","Heroin","Asia","Pakistan","United States",69.345116,30.375321,-95.712891,37.09024
+"2609","Heroin","Asia","Pakistan","India",69.345116,30.375321,78.96288,20.593684
+"2616","Cocaine","Asia","Pakistan","Qatar",69.345116,30.375321,51.183884,25.354826
+"2626","Heroin","Asia","Pakistan","Maldives",69.345116,30.375321,NA,NA
+"2641","Heroin","Asia","Pakistan","Austria",69.345116,30.375321,14.550072,47.516231
+"2642","Heroin","Asia","Pakistan","Kenya",69.345116,30.375321,37.906193,-0.023559
+"2643","Heroin","Asia","Pakistan","Oman",69.345116,30.375321,NA,NA
+"2650","Heroin","Asia","Pakistan","Indonesia",69.345116,30.375321,113.921327,-0.789275
+"2651","Cocaine","Asia","Pakistan","Nigeria",69.345116,30.375321,8.675277,9.081999
+"2662","Heroin","Asia","Pakistan","Kuwait",69.345116,30.375321,NA,NA
+"2686","Heroin","Asia","Pakistan","Uganda",69.345116,30.375321,32.290275,1.373333
+"2690","Cocaine","Asia","Pakistan","United Arab Emirates",69.345116,30.375321,53.847818,23.424076
+"2707","Cannabis Herb (Marijuana)","Asia","India","Bangladesh",78.96288,20.593684,90.356331,23.684994
+"2715","Cannabis Herb (Marijuana)","Asia","Bangladesh","Austria",90.356331,23.684994,14.550072,47.516231
+"2735","Cocaine","Europe","Austria","Romania",14.550072,47.516231,24.96676,45.943161
+"2736","Heroin","Europe","Kosovo under UNSCR 1244","Romania",NA,NA,24.96676,45.943161
+"2737","Cocaine","Europe","Ecuador","Romania",-78.183406,-1.831239,24.96676,45.943161
+"2740","Cocaine","Europe","Netherlands","Romania",5.291266,52.132633,24.96676,45.943161
+"2741","Heroin","Europe","Bulgaria","Romania",25.48583,42.733883,24.96676,45.943161
+"2743","Heroin","Europe","Ukraine","Netherlands",31.16558,48.379433,5.291266,52.132633
+"2746","Heroin","Europe","Turkey","Romania",35.243322,38.963745,24.96676,45.943161
+"2748","Heroin","Europe","Pakistan","Italy",69.345116,30.375321,12.56738,41.87194
+"2773","Cocaine","Europe","Venezuela, Bolivarian Republic of","Portugal",-66.58973,6.42375,-8.224454,39.399872
+"2786","Cocaine","Europe","Costa Rica","Portugal",-83.753428,9.748917,-8.224454,39.399872
+"2810","Cocaine","Europe","Netherlands Antilles","Portugal",-68.2623822,12.2018902,-8.224454,39.399872
+"2813","Heroin","Europe","Netherlands","Portugal",5.291266,52.132633,-8.224454,39.399872
+"2830","Cocaine","Europe","Venezuela, Bolivarian Republic of","France",-66.58973,6.42375,2.213749,46.227638
+"2846","Cocaine","Europe","Brazil","Ireland",-51.92528,-14.235004,-8.24389,53.41291
+"2857","Cocaine","Europe","Brazil","Sao Tome and Principe",-51.92528,-14.235004,6.613081,0.18636
+"2863","Cocaine","Europe","Brazil","Hungary",-51.92528,-14.235004,19.503304,47.162494
+"2867","Cocaine","Europe","Sao Tome and Principe","Spain",6.613081,0.18636,-3.74922,40.463667
+"2869","Cannabis Herb (Marijuana)","Europe","Benin","Spain",2.315834,9.30769,-3.74922,40.463667
+"2874","Cocaine","Europe","United Arab Emirates","Spain",53.847818,23.424076,-3.74922,40.463667
+"2894","Heroin","","Madagascar","China",46.869107,-18.766947,104.195397,35.86166
+"2895","Cocaine","","Philippines","Hong Kong",121.774017,12.879721,114.109497,22.396428
+"2896","Cocaine","","Brazil","Hong Kong",-51.92528,-14.235004,114.109497,22.396428
+"2897","Cannabis Herb (Marijuana)","Africa","Morocco","Algeria",-7.09262,31.791702,1.659626,28.033886
+"2899","Cannabis Herb (Marijuana)","Africa","Zambia","Tanzania",27.849332,-13.133897,34.888822,-6.369028
+"2900","Cocaine","Africa","Zambia","South Africa",27.849332,-13.133897,22.937506,-30.559482
+"2901","Cannabis Herb (Marijuana)","Americas","Jamaica","Bahamas",-77.297508,18.109581,NA,NA
+"2903","Cocaine","Americas","Jamaica","Bahamas",-77.297508,18.109581,NA,NA
+"2904","Cocaine","Americas","Ecuador","Cuba",-78.183406,-1.831239,-77.781167,21.521757
+"2912","Cocaine","Americas","Boliva","Cuba",-63.588653,-16.290154,-77.781167,21.521757
+"2913","Cocaine","Americas","Peru","Cuba",-75.015152,-9.189967,-77.781167,21.521757
+"2916","Cannabis Herb (Marijuana)","Americas","United States","Cuba",-95.712891,37.09024,-77.781167,21.521757
+"2917","Cocaine","Americas","Mexico","Cuba",-102.552784,23.634501,-77.781167,21.521757
+"2923","Heroin","Americas","Guatemala","Russian Federation",-90.230759,15.783471,105.318756,61.52401
+"2969","Cannabis Herb (Marijuana)","Americas","Colombia","Puerto Rico",-74.297333,4.570868,NA,NA
+"2970","Cocaine","Americas","Colombia","Venezuela, Bolivarian Republic of",-74.297333,4.570868,-66.58973,6.42375
+"2971","Cocaine","Americas","Colombia","Liberia",-74.297333,4.570868,NA,NA
+"2972","Cocaine","Americas","Colombia","China",-74.297333,4.570868,104.195397,35.86166
+"2973","Cocaine","Americas","Colombia","Netherlands",-74.297333,4.570868,5.291266,52.132633
+"2975","Cocaine","Americas","Colombia","South Africa",-74.297333,4.570868,22.937506,-30.559482
+"2977","Cocaine","Americas","Colombia","United Kingdom",-74.297333,4.570868,-3.435973,55.378051
+"2978","Cocaine","Americas","Colombia","Canada",-74.297333,4.570868,-106.346771,56.130366
+"2979","Cocaine","Americas","Colombia","Morocco",-74.297333,4.570868,-7.09262,31.791702
+"2982","Cocaine","Americas","Colombia","India",-74.297333,4.570868,78.96288,20.593684
+"2983","Cocaine","Americas","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
+"2988","Cocaine","Americas","Colombia","Portugal",-74.297333,4.570868,-8.224454,39.399872
+"2989","Cocaine","Americas","Colombia","Costa Rica",-74.297333,4.570868,-83.753428,9.748917
+"2990","Heroin","Americas","Colombia","China",-74.297333,4.570868,104.195397,35.86166
+"3001","Cocaine","Americas","Colombia","Thailand",-74.297333,4.570868,100.992541,15.870032
+"3005","Cocaine","Americas","Colombia","Malaysia",-74.297333,4.570868,101.975766,4.210484
+"3013","Cocaine","Americas","Colombia","Ireland",-74.297333,4.570868,-8.24389,53.41291
+"3027","Cannabis Herb (Marijuana)","Americas","Colombia","United Kingdom",-74.297333,4.570868,-3.435973,55.378051
+"3028","Cocaine","Americas","Colombia","Russian Federation",-74.297333,4.570868,105.318756,61.52401
+"3030","Cocaine","Americas","Colombia","Jamaica",-74.297333,4.570868,-77.297508,18.109581
+"3034","Cocaine","Americas","Colombia","Nigeria",-74.297333,4.570868,8.675277,9.081999
+"3038","Cocaine","Americas","Colombia","Greece",-74.297333,4.570868,21.824312,39.074208
+"3039","Cocaine","Americas","Colombia","Mexico",-74.297333,4.570868,-102.552784,23.634501
+"3043","Cocaine","Americas","Colombia","Australia",-74.297333,4.570868,NA,NA
+"3048","Cannabis Herb (Marijuana)","Americas","Colombia","Ireland",-74.297333,4.570868,-8.24389,53.41291
+"3054","Cocaine","Americas","Colombia","Slovakia",-74.297333,4.570868,19.699024,48.669026
+"3060","Cocaine","Americas","Colombia","Sierra Leone",-74.297333,4.570868,-11.779889,8.460555
+"3070","Cocaine","Americas","Colombia","Dominica",-74.297333,4.570868,-61.370976,15.414999
+"3071","Cocaine","Americas","Colombia","Romania",-74.297333,4.570868,24.96676,45.943161
+"3077","Cocaine","Americas","Colombia","Cabo Verde",-74.297333,4.570868,-23.6051868,15.120142
+"3087","Cannabis Herb (Marijuana)","Americas","Colombia","Iran, Islamic Republic of",-74.297333,4.570868,47.0571193,38.4703541
+"3096","Cocaine","Americas","Colombia","Italy",-74.297333,4.570868,12.56738,41.87194
+"3098","Cocaine","Americas","Colombia","Belgium",-74.297333,4.570868,4.469936,50.503887
+"3112","Cannabis Herb (Marijuana)","Americas","Colombia","Spain",-74.297333,4.570868,-3.74922,40.463667
+"3132","Heroin","Asia","Iran, Islamic Republic of","Armenia",47.0571193,38.4703541,NA,NA
+"3133","Cannabis Herb (Marijuana)","Asia","Iran, Islamic Republic of","Armenia",47.0571193,38.4703541,NA,NA
+"3134","Cocaine","Asia","Dominican Republic","Armenia",-70.162651,18.735693,NA,NA
+"3135","Cocaine","Asia","Netherlands","Philippines",5.291266,52.132633,121.774017,12.879721
+"3173","Heroin","Asia","Pakistan","Australia",69.345116,30.375321,NA,NA
+"3196","Heroin","Asia","Pakistan","Cyprus",69.345116,30.375321,NA,NA
+"3205","Cocaine","Asia","Pakistan","Mali",69.345116,30.375321,NA,NA
+"3214","Heroin","Asia","Pakistan","Hungary",69.345116,30.375321,19.503304,47.162494
+"3228","Heroin","Asia","Pakistan","Nepal",69.345116,30.375321,84.124008,28.394857
+"3268","Heroin","Asia","Pakistan","Turkey",69.345116,30.375321,35.243322,38.963745
+"3345","Cocaine","Asia","Pakistan","South Africa",69.345116,30.375321,22.937506,-30.559482
+"3387","Cocaine","Europe","Peru","Russian Federation",-75.015152,-9.189967,105.318756,61.52401
+"3388","Heroin","Europe","Lithuania","Russian Federation",23.881275,55.169438,105.318756,61.52401
+"3389","Heroin","Europe","Tajikistan","Russian Federation",71.276093,38.861034,105.318756,61.52401
+"3390","Cannabis Herb (Marijuana)","Europe","Thailand","Russian Federation",100.992541,15.870032,105.318756,61.52401
+"3391","Cannabis Herb (Marijuana)","Europe","Poland","Russian Federation",19.145136,51.919438,105.318756,61.52401
+"3392","Cannabis Herb (Marijuana)","Europe","Kazakhstan","Russian Federation",66.923684,48.019573,105.318756,61.52401
+"3399","Cocaine","Europe","Uruguay","Russian Federation",-55.765835,-32.522779,105.318756,61.52401
+"3400","Cocaine","Europe","Dominica","Russian Federation",-61.370976,15.414999,105.318756,61.52401
+"3404","Cocaine","Europe","Dominican Republic","Russian Federation",-70.162651,18.735693,105.318756,61.52401
+"3410","Cannabis Herb (Marijuana)","Europe","Albania","Bosnia and Herzegovina",20.168331,41.153332,17.679076,43.915886
+"3411","Cannabis Herb (Marijuana)","Europe","Albania","Croatia",20.168331,41.153332,NA,NA
+"3412","Cocaine","Europe","Ecuador","Other",-78.183406,-1.831239,-2.8812479,51.0802361
+"3414","Cannabis Herb (Marijuana)","Europe","Netherlands","Romania",5.291266,52.132633,24.96676,45.943161
+"3421","Cannabis Herb (Marijuana)","Europe","Belgium","Romania",4.469936,50.503887,24.96676,45.943161
+"3430","Cocaine","Europe","Venezuela, Bolivarian Republic of","Romania",-66.58973,6.42375,24.96676,45.943161
+"3434","Cocaine","Europe","Brazil","South Africa",-51.92528,-14.235004,22.937506,-30.559482
+"3471","Cocaine","Europe","Barbados","Portugal",-59.543198,13.193887,-8.224454,39.399872
+"3491","Cocaine","Europe","Brazil","Mozambique",-51.92528,-14.235004,35.529562,-18.665695
+"3500","Cocaine","Europe","Brazil","Poland",-51.92528,-14.235004,19.145136,51.919438
+"3541","Cocaine","Europe","Uruguay","Belgium",-55.765835,-32.522779,4.469936,50.503887
+"3566","Cocaine","Europe","Brazil","Luxembourg",-51.92528,-14.235004,6.129583,49.815273
+"3569","Heroin","Africa","Tanzania, United Republic of","Egypt",NA,NA,30.802498,26.820553
+"3571","Heroin","Africa","Kenya","Egypt",37.906193,-0.023559,30.802498,26.820553
+"3573","Cannabis Herb (Marijuana)","Africa","Swaziland","South Africa",31.465866,-26.522503,22.937506,-30.559482
+"3605","Cannabis Herb (Marijuana)","Africa","Swaziland","Botswana",31.465866,-26.522503,NA,NA
+"3783","Cannabis Herb (Marijuana)","Africa","Swaziland","Mozambique",31.465866,-26.522503,35.529562,-18.665695
+"3831","Heroin","Africa","Pakistan","Benin",69.345116,30.375321,2.315834,9.30769
+"3833","Cannabis Herb (Marijuana)","Africa","Togo","United States",0.824782,8.619543,-95.712891,37.09024
+"3835","Cocaine","Africa","Nigeria","South Africa",8.675277,9.081999,22.937506,-30.559482
+"3836","Cocaine","Africa","Nigeria","Turkey",8.675277,9.081999,35.243322,38.963745
+"3838","Cocaine","Africa","Nigeria","United Kingdom",8.675277,9.081999,-3.435973,55.378051
+"3839","Heroin","Africa","Nigeria","Pakistan",8.675277,9.081999,69.345116,30.375321
+"3841","Heroin","Africa","Pakistan","Nigeria",69.345116,30.375321,8.675277,9.081999
+"3844","Cocaine","Africa","Panama","Nigeria",-80.782127,8.537981,8.675277,9.081999
+"3845","Cocaine","Africa","United Arab Emirates","Nigeria",53.847818,23.424076,8.675277,9.081999
+"3853","Cannabis Herb (Marijuana)","Africa","Nigeria","Italy",8.675277,9.081999,12.56738,41.87194
+"3860","Cocaine","Americas","Panama","Cuba",-80.782127,8.537981,-77.781167,21.521757
+"3863","Cocaine","Americas","Colombia","Cuba",-74.297333,4.570868,-77.781167,21.521757
+"3868","Cocaine","Americas","Boliva","Spain",-63.588653,-16.290154,-3.74922,40.463667
+"3870","Cocaine","Americas","Peru","Russian Federation",-75.015152,-9.189967,105.318756,61.52401
+"3872","Cocaine","Americas","Colombia","Togo",-74.297333,4.570868,0.824782,8.619543
+"3882","Cocaine","Americas","Brazil","Mexico",-51.92528,-14.235004,-102.552784,23.634501
+"3909","Cocaine","Americas","Chile","Mexico",-71.542969,-35.675147,-102.552784,23.634501
+"3911","Cannabis Herb (Marijuana)","Americas","Paraguay","Brazil",-58.443832,-23.442503,-51.92528,-14.235004
+"3912","Cannabis Herb (Marijuana)","Americas","Paraguay","Netherlands",-58.443832,-23.442503,5.291266,52.132633
+"3913","Cocaine","Asia","United States","Korea, Republic of",-95.712891,37.09024,NA,NA
+"3924","Heroin","Asia","Pakistan","Togo",69.345116,30.375321,0.824782,8.619543
+"3948","Heroin","Asia","Pakistan","Syrian Arab Republic",69.345116,30.375321,NA,NA
+"3951","Heroin","Asia","Pakistan","Isle of Man",69.345116,30.375321,NA,NA
+"3956","Heroin","Asia","Pakistan","Lesotho",69.345116,30.375321,NA,NA
+"3961","Heroin","Asia","Pakistan","R’©union",69.345116,30.375321,NA,NA
+"3966","Heroin","Asia","Pakistan","Belgium",69.345116,30.375321,4.469936,50.503887
+"3973","Cocaine","Asia","Pakistan","United Kingdom",69.345116,30.375321,-3.435973,55.378051
+"4029","Heroin","Asia","Pakistan","Hong Kong",69.345116,30.375321,114.109497,22.396428
+"4044","Cocaine","Asia","Pakistan","Saudi Arabia",69.345116,30.375321,NA,NA
+"4090","Heroin","Asia","Nigeria","Ghana",8.675277,9.081999,-1.023194,7.946527
+"4109","Heroin","Asia","Pakistan","Ethiopia",69.345116,30.375321,40.489673,9.145
+"4122","Cocaine","Asia","Pakistan","Thailand",69.345116,30.375321,100.992541,15.870032
+"4124","Cocaine","Asia","Pakistan","Australia",69.345116,30.375321,NA,NA
+"4169","Cocaine","Europe","Cuba","Russian Federation",-77.781167,21.521757,105.318756,61.52401
+"4170","Cocaine","Europe","Boliva","Russian Federation",-63.588653,-16.290154,105.318756,61.52401
+"4174","Heroin","Europe","Iran, Islamic Republic of","Russian Federation",47.0571193,38.4703541,105.318756,61.52401
+"4177","Cocaine","Europe","Dominica","Armenia",-61.370976,15.414999,NA,NA
+"4178","Heroin","Europe","Kazakhstan","Russian Federation",66.923684,48.019573,105.318756,61.52401
+"4180","Cannabis Herb (Marijuana)","Europe","Germany","Russian Federation",10.451526,51.165691,105.318756,61.52401
+"4181","Cocaine","Europe","France","Russian Federation",2.213749,46.227638,105.318756,61.52401
+"4183","Cocaine","Europe","Dominican Republic","Bulgaria",-70.162651,18.735693,25.48583,42.733883
+"4184","Cocaine","Europe","Saint Lucia","Bulgaria",-60.978893,13.909444,25.48583,42.733883
+"4185","Cannabis Herb (Marijuana)","Europe","Albania","Germany",20.168331,41.153332,10.451526,51.165691
+"4186","Heroin","Europe","Turkey","Germany",35.243322,38.963745,10.451526,51.165691
+"4187","Cannabis Herb (Marijuana)","Europe","Albania","Romania",20.168331,41.153332,24.96676,45.943161
+"4189","Heroin","Europe","Bulgaria","Spain",25.48583,42.733883,-3.74922,40.463667
+"4190","Cocaine","Europe","Bulgaria","Turkey",25.48583,42.733883,35.243322,38.963745
+"4191","Cannabis Herb (Marijuana)","Europe","United Kingdom (England and Wales)","Bulgaria",-0.0576251,51.5051117,25.48583,42.733883
+"4192","Cannabis Herb (Marijuana)","Europe","Belgium","Bulgaria",4.469936,50.503887,25.48583,42.733883
+"4193","Heroin","Europe","Turkey","Bulgaria",35.243322,38.963745,25.48583,42.733883
+"4194","Cannabis Herb (Marijuana)","Europe","Albania","Italy",20.168331,41.153332,12.56738,41.87194
+"4196","Cannabis Herb (Marijuana)","Europe","Spain","Bulgaria",-3.74922,40.463667,25.48583,42.733883
+"4198","Heroin","Europe","Turkey","Kosovo",35.243322,38.963745,NA,NA
+"4200","Cannabis Herb (Marijuana)","Europe","Netherlands","Bulgaria",5.291266,52.132633,25.48583,42.733883
+"4207","Cocaine","Europe","Argentina","Bulgaria",-63.616672,-38.416097,25.48583,42.733883
+"4209","Heroin","Europe","Turkey","Netherlands",35.243322,38.963745,5.291266,52.132633
+"4211","Cocaine","Europe","Ecuador","Bulgaria",-78.183406,-1.831239,25.48583,42.733883
+"4212","Cocaine","Europe","Brazil","Bulgaria",-51.92528,-14.235004,25.48583,42.733883
+"4218","Heroin","Europe","Turkey","France",35.243322,38.963745,2.213749,46.227638
+"4219","Heroin","Europe","Bulgaria","Germany",25.48583,42.733883,10.451526,51.165691
+"4220","Cocaine","Europe","Costa Rica","Bulgaria",-83.753428,9.748917,25.48583,42.733883
+"4223","Heroin","Europe","Turkey","Poland",35.243322,38.963745,19.145136,51.919438
+"4224","Cocaine","Europe","United States","Romania",-95.712891,37.09024,24.96676,45.943161
+"4227","Cannabis Herb (Marijuana)","Europe","Greece","Romania",21.824312,39.074208,24.96676,45.943161
+"4229","Cocaine","Europe","Spain","Turkey",-3.74922,40.463667,35.243322,38.963745
+"4230","Cannabis Herb (Marijuana)","Europe","Italy","Romania",12.56738,41.87194,24.96676,45.943161
+"4231","Cannabis Herb (Marijuana)","Europe","Czech Republic","Romania",15.472962,49.817492,24.96676,45.943161
+"4232","Heroin","Europe","Uruguay","Romania",-55.765835,-32.522779,24.96676,45.943161
+"4235","Cannabis Herb (Marijuana)","Europe","Romania","Germany",24.96676,45.943161,10.451526,51.165691
+"4243","Cocaine","Europe","Costa Rica","Romania",-83.753428,9.748917,24.96676,45.943161
+"4251","Heroin","Europe","Pakistan","Belgium",69.345116,30.375321,4.469936,50.503887
+"4252","Cannabis Herb (Marijuana)","Europe","Montenegro","Cyprus",19.37439,42.708678,NA,NA
+"4253","Cannabis Herb (Marijuana)","Europe","Germany","Cyprus",10.451526,51.165691,NA,NA
+"4254","Cannabis Herb (Marijuana)","Europe","Greece","Cyprus",21.824312,39.074208,NA,NA
+"4259","Heroin","Europe","Serbia","Hungary",21.005859,44.016521,19.503304,47.162494
+"4262","Cannabis Herb (Marijuana)","Europe","Serbia","Hungary",21.005859,44.016521,19.503304,47.162494
+"4264","Cocaine","Europe","Nigeria","Hungary",8.675277,9.081999,19.503304,47.162494
+"4266","Cannabis Herb (Marijuana)","Europe","Indonesia","Hungary",113.921327,-0.789275,19.503304,47.162494
+"4273","Cocaine","Europe","Peru","Hungary",-75.015152,-9.189967,19.503304,47.162494
+"4274","Heroin","Europe","Spain","Hungary",-3.74922,40.463667,19.503304,47.162494
+"4277","Cocaine","Europe","Israel","Hungary",34.851612,31.046051,19.503304,47.162494
+"4279","Cannabis Herb (Marijuana)","Europe","Serbia","Poland",21.005859,44.016521,19.145136,51.919438
+"4280","Cannabis Herb (Marijuana)","Europe","Greece","Poland",21.824312,39.074208,19.145136,51.919438
+"4285","Cocaine","Europe","India","Hungary",78.96288,20.593684,19.503304,47.162494
+"4287","Cocaine","Europe","Argentina","Hungary",-63.616672,-38.416097,19.503304,47.162494
+"4289","Cannabis Herb (Marijuana)","Europe","Serbia","Germany",21.005859,44.016521,10.451526,51.165691
+"4297","Cocaine","Europe","China","Hungary",104.195397,35.86166,19.503304,47.162494
+"4300","Cannabis Herb (Marijuana)","Europe","India","Hungary",78.96288,20.593684,19.503304,47.162494
+"4304","Cocaine","Europe","Spain","Hungary",-3.74922,40.463667,19.503304,47.162494
+"4311","Heroin","Europe","Uganda","Italy",32.290275,1.373333,12.56738,41.87194
+"4313","Cocaine","Europe","Chile","Netherlands",-71.542969,-35.675147,5.291266,52.132633
+"4316","Cocaine","Europe","Chile","Italy",-71.542969,-35.675147,12.56738,41.87194
+"4318","Heroin","Europe","Tanzania, United Republic of","Italy",NA,NA,12.56738,41.87194
+"4321","Cocaine","Europe","India","Italy",78.96288,20.593684,12.56738,41.87194
+"4323","Cannabis Herb (Marijuana)","Europe","Netherlands","Italy",5.291266,52.132633,12.56738,41.87194
+"4329","Cannabis Herb (Marijuana)","Europe","Greece","Germany",21.824312,39.074208,10.451526,51.165691
+"4333","Heroin","Europe","India","Italy",78.96288,20.593684,12.56738,41.87194
+"4334","Cocaine","Europe","Brazil","Cyprus",-51.92528,-14.235004,NA,NA
+"4337","Cannabis Herb (Marijuana)","Europe","Greece","Italy",21.824312,39.074208,12.56738,41.87194
+"4338","Cocaine","Europe","France","Italy",2.213749,46.227638,12.56738,41.87194
+"4342","Heroin","Europe","Albania","Italy",20.168331,41.153332,12.56738,41.87194
+"4344","Cocaine","Europe","Mexico","Italy",-102.552784,23.634501,12.56738,41.87194
+"4346","Heroin","Europe","Kenya","Italy",37.906193,-0.023559,12.56738,41.87194
+"4348","Cocaine","Europe","Panama","Italy",-80.782127,8.537981,12.56738,41.87194
+"4350","Cannabis Herb (Marijuana)","Europe","Nigeria","Italy",8.675277,9.081999,12.56738,41.87194
+"4351","Cocaine","Europe","Tanzania, United Republic of","Italy",NA,NA,12.56738,41.87194
+"4352","Heroin","Europe","Togo","Italy",0.824782,8.619543,12.56738,41.87194
+"4354","Heroin","Europe","Greece","Spain",21.824312,39.074208,-3.74922,40.463667
+"4358","Heroin","Europe","Netherlands","Italy",5.291266,52.132633,12.56738,41.87194
+"4360","Cannabis Herb (Marijuana)","Europe","Mexico","Italy",-102.552784,23.634501,12.56738,41.87194
+"4368","Cocaine","Europe","Argentina","Italy",-63.616672,-38.416097,12.56738,41.87194
+"4369","Cocaine","Europe","Brazil","Ukraine",-51.92528,-14.235004,31.16558,48.379433
+"4375","Cocaine","Europe","Colombia","Turkey",-74.297333,4.570868,35.243322,38.963745
+"4377","Cocaine","Europe","Ecuador","Italy",-78.183406,-1.831239,12.56738,41.87194
+"4380","Cocaine","Europe","Brazil","Egypt",-51.92528,-14.235004,30.802498,26.820553
+"4381","Cocaine","Europe","Netherlands","Italy",5.291266,52.132633,12.56738,41.87194
+"4383","Heroin","Europe","Greece","Italy",21.824312,39.074208,12.56738,41.87194
+"4384","Cocaine","Europe","Belgium","Italy",4.469936,50.503887,12.56738,41.87194
+"4392","Cocaine","Europe","Germany","Italy",10.451526,51.165691,12.56738,41.87194
+"4393","Heroin","Europe","Spain","Italy",-3.74922,40.463667,12.56738,41.87194
+"4399","Cannabis Herb (Marijuana)","Europe","United Kingdom","Italy",-3.435973,55.378051,12.56738,41.87194
+"4400","Cocaine","Europe","Brazil","Saudi Arabia",-51.92528,-14.235004,NA,NA
+"4433","Cannabis Herb (Marijuana)","Europe","Greece","France",21.824312,39.074208,2.213749,46.227638
+"4436","Cannabis Herb (Marijuana)","Europe","Canada","Italy",-106.346771,56.130366,12.56738,41.87194
+"4437","Cannabis Herb (Marijuana)","Europe","Costa Rica","Italy",-83.753428,9.748917,12.56738,41.87194
+"4440","Cocaine","Europe","Brazil","Yemen",-51.92528,-14.235004,NA,NA
+"4473","Cocaine","Europe","El Salvador","Italy",-88.89653,13.794185,12.56738,41.87194
+"4481","Cannabis Herb (Marijuana)","Europe","Belgium","Italy",4.469936,50.503887,12.56738,41.87194
+"4484","Cannabis Herb (Marijuana)","Europe","Czech Republic","Italy",15.472962,49.817492,12.56738,41.87194
+"4488","Cocaine","Europe","United States","United Arab Emirates",-95.712891,37.09024,53.847818,23.424076
+"4490","Heroin","Europe","Afghanistan","Italy",67.709953,33.93911,12.56738,41.87194
+"4513","Cocaine","Europe","Chile","Saudi Arabia",-71.542969,-35.675147,NA,NA
+"4517","Cocaine","Europe","Paraguay","Switzerland",-58.443832,-23.442503,8.227512,46.818188
+"4519","Heroin","Europe","Pakistan","Netherlands",69.345116,30.375321,5.291266,52.132633
+"4532","Cannabis Herb (Marijuana)","Europe","Morocco","Portugal",-7.09262,31.791702,-8.224454,39.399872
+"4549","Cocaine","Europe","Mozambique","Spain",35.529562,-18.665695,-3.74922,40.463667
+"4579","Cocaine","Europe","Brazil","Guinea-Bissau",-51.92528,-14.235004,-15.180413,11.803749
+"4592","Cocaine","Europe","Dominican Republic","Portugal",-70.162651,18.735693,-8.224454,39.399872
+"4649","Cocaine","Europe","Brazil","C’‚te d'Ivoire",-51.92528,-14.235004,NA,NA
+"4693","Cocaine","Europe","Peru","Serbia",-75.015152,-9.189967,21.005859,44.016521
+"4703","Cocaine","Europe","Paraguay","Portugal",-58.443832,-23.442503,-8.224454,39.399872
+"4744","Heroin","Europe","Pakistan","United Kingdom",69.345116,30.375321,-3.435973,55.378051
+"4749","Cannabis Herb (Marijuana)","Africa","Ethiopia","France",40.489673,9.145,2.213749,46.227638
+"4750","Cannabis Herb (Marijuana)","Africa","Ethiopia","United Kingdom",40.489673,9.145,-3.435973,55.378051
+"4751","Cannabis Herb (Marijuana)","Africa","Ethiopia","Italy",40.489673,9.145,12.56738,41.87194
+"4753","Heroin","Africa","United Arab Emirates","Nigeria",53.847818,23.424076,8.675277,9.081999
+"4755","Cocaine","Africa","Brazil","Tanzania",-51.92528,-14.235004,34.888822,-6.369028
+"4756","Cocaine","Africa","Ghana","Thailand",-1.023194,7.946527,100.992541,15.870032
+"4759","Heroin","Africa","Kenya","Mauritius",37.906193,-0.023559,NA,NA
+"4760","Heroin","Africa","Madagascar","Mauritius",46.869107,-18.766947,NA,NA
+"4765","Heroin","Africa","India","Mauritius",78.96288,20.593684,NA,NA
+"4766","Cocaine","Africa","Brazil","Angola",-51.92528,-14.235004,17.873887,-11.202692
+"4787","Cocaine","Africa","Angola","Namibia",17.873887,-11.202692,NA,NA
+"4807","Cocaine","Americas","Costa Rica","Switzerland",-83.753428,9.748917,8.227512,46.818188
+"4808","Cannabis Herb (Marijuana)","Americas","Saint Vincent and the Grenadines","Grenada",-61.1971628,13.2528179,-61.679,12.1165
+"4809","Cannabis Herb (Marijuana)","Americas","Saint Vincent and the Grenadines","Trinidad and Tobago",-61.1971628,13.2528179,-61.222503,10.691803
+"4810","Cannabis Herb (Marijuana)","Americas","Saint Vincent and the Grenadines","Antigua and Barbuda",-61.1971628,13.2528179,NA,NA
+"4813","Cannabis Herb (Marijuana)","Americas","Jamaica","Barbados",-77.297508,18.109581,-59.543198,13.193887
+"4823","Cannabis Herb (Marijuana)","Americas","Saint Vincent and the Grenadines","Barbados",-61.1971628,13.2528179,-59.543198,13.193887
+"4826","Cannabis Herb (Marijuana)","Americas","Paraguay","Argentina",-58.443832,-23.442503,-63.616672,-38.416097
+"4833","Cocaine","Americas","Paraguay","Argentina",-58.443832,-23.442503,-63.616672,-38.416097
+"4838","Heroin","Americas","Argentina","Spain",-63.616672,-38.416097,-3.74922,40.463667
+"4857","Cocaine","Americas","Argentina","Uruguay",-63.616672,-38.416097,-55.765835,-32.522779
+"4859","Cocaine","Americas","Boliva","Argentina",-63.588653,-16.290154,-63.616672,-38.416097
+"4881","Cocaine","Asia","Hong Kong","Korea, Republic of",114.109497,22.396428,NA,NA
+"4882","Heroin","Asia","United States","Korea, Republic of",-95.712891,37.09024,NA,NA
+"4883","Cannabis Herb (Marijuana)","Asia","United States","Korea, Republic of",-95.712891,37.09024,NA,NA
+"4884","Cocaine","Asia","Argentina","Lebanon",-63.616672,-38.416097,35.862285,33.854721
+"4885","Cocaine","Asia","Lebanon","Australia",35.862285,33.854721,NA,NA
+"4886","Cocaine","Asia","Venezuela, Bolivarian Republic of","Lebanon",-66.58973,6.42375,35.862285,33.854721
+"4887","Cocaine","Asia","Colombia","Lebanon",-74.297333,4.570868,35.862285,33.854721
+"4913","Heroin","Asia","Pakistan","Zimbabwe",69.345116,30.375321,NA,NA
+"4928","Heroin","Asia","Pakistan","Mozambique",69.345116,30.375321,35.529562,-18.665695
+"4933","Heroin","Asia","Pakistan","Bangladesh",69.345116,30.375321,90.356331,23.684994
+"4955","Cocaine","Asia","Pakistan","C’‚te d'Ivoire",69.345116,30.375321,NA,NA
+"4975","Heroin","Asia","Pakistan","Viet Nam",69.345116,30.375321,NA,NA
+"4980","Heroin","Asia","Pakistan","Mauritius",69.345116,30.375321,NA,NA
+"5026","Cocaine","Asia","Ghana","Pakistan",-1.023194,7.946527,69.345116,30.375321
+"5037","Heroin","Asia","Pakistan","Philippines",69.345116,30.375321,121.774017,12.879721
+"5046","Heroin","Asia","Pakistan","Germany",69.345116,30.375321,10.451526,51.165691
+"5062","Cocaine","Asia","Suriname","Pakistan",-56.027783,3.919305,69.345116,30.375321
+"5082","Heroin","Asia","Malaysia","Pakistan",101.975766,4.210484,69.345116,30.375321
+"5109","Heroin","Asia","Pakistan","Mali",69.345116,30.375321,NA,NA
+"5127","Cocaine","Europe","Netherlands","Bulgaria",5.291266,52.132633,25.48583,42.733883
+"5128","Heroin","Europe","Bulgaria","Netherlands",25.48583,42.733883,5.291266,52.132633
+"5129","Cocaine","Europe","Brazil","Denmark",-51.92528,-14.235004,NA,NA
+"5130","Heroin","Europe","Bulgaria","Greece",25.48583,42.733883,21.824312,39.074208
+"5131","Heroin","Europe","Turkey","Italy",35.243322,38.963745,12.56738,41.87194
+"5133","Cocaine","Europe","Dominican Republic","Romania",-70.162651,18.735693,24.96676,45.943161
+"5181","Cocaine","Europe","Brazil","Mali",-51.92528,-14.235004,NA,NA
+"5182","Cocaine","Europe","Brazil","Guinea",-51.92528,-14.235004,NA,NA
+"5199","Cocaine","Europe","Senegal","St. Lucia",-14.452362,14.497401,NA,NA
+"5208","Cocaine","Europe","Mexico","Portugal",-102.552784,23.634501,-8.224454,39.399872
+"5212","Cannabis Herb (Marijuana)","Europe","Germany","Portugal",10.451526,51.165691,-8.224454,39.399872
+"5230","Cannabis Herb (Marijuana)","Europe","Swaziland","Portugal",31.465866,-26.522503,-8.224454,39.399872
+"5239","Cocaine","Europe","Senegal","Portugal",-14.452362,14.497401,-8.224454,39.399872
+"5243","Cocaine","Europe","Argentina","Netherlands",-63.616672,-38.416097,5.291266,52.132633
+"5280","Cannabis Herb (Marijuana)","Europe","Morocco","Belgium",-7.09262,31.791702,4.469936,50.503887
+"5284","Cocaine","Europe","Panama","Mozambique",-80.782127,8.537981,35.529562,-18.665695
+"5364","Cocaine","Europe","Spain","Belgium",-3.74922,40.463667,4.469936,50.503887
+"5384","Cocaine","Europe","Venezuela, Bolivarian Republic of","St. Lucia",-66.58973,6.42375,NA,NA
+"5436","Cocaine","Europe","Costa Rica","Burundi",-83.753428,9.748917,NA,NA
+"5442","Cocaine","Europe","Panama","Cambodia",-80.782127,8.537981,NA,NA
+"5443","Cocaine","Europe","Panama","Malaysia",-80.782127,8.537981,101.975766,4.210484
+"5463","Cocaine","Europe","Costa Rica","St. Lucia",-83.753428,9.748917,NA,NA
+"5515","Cocaine","Europe","Costa Rica","Lithuania",-83.753428,9.748917,23.881275,55.169438
+"5575","Heroin","Europe","Bahrain","Spain",50.5577,26.0667,-3.74922,40.463667
+"5611","Cocaine","Europe","Cuba","Spain",-77.781167,21.521757,-3.74922,40.463667
+"5671","Cocaine","Europe","Peru","Switzerland",-75.015152,-9.189967,8.227512,46.818188
+"5673","Heroin","Europe","Boliva","Spain",-63.588653,-16.290154,-3.74922,40.463667
+"5681","Cocaine","Europe","Grenada","Spain",-61.679,12.1165,-3.74922,40.463667
+"5736","Cocaine","Europe","Boliva","Italy",-63.588653,-16.290154,12.56738,41.87194
+"5756","Cocaine","Europe","Peru","Slovenia",-75.015152,-9.189967,14.995463,46.151241
+"5847","Cocaine","Europe","Peru","Greece",-75.015152,-9.189967,21.824312,39.074208
+"5883","Cannabis Herb (Marijuana)","Europe","Equatorial Guinea","Spain",10.267895,1.650801,-3.74922,40.463667
+"5889","Cocaine","Europe","Mexico","Romania",-102.552784,23.634501,24.96676,45.943161
+"5891","Cocaine","Europe","Spain","Israel",-3.74922,40.463667,34.851612,31.046051
+"5978","Heroin","Europe","Uruguay","Spain",-55.765835,-32.522779,-3.74922,40.463667
+"6012","Heroin","Europe","Belgium","Spain",4.469936,50.503887,-3.74922,40.463667
+"6056","Cocaine","Europe","Venezuela, Bolivarian Republic of","Germany",-66.58973,6.42375,10.451526,51.165691
+"6086","Cocaine","Europe","Sierra Leone","Spain",-11.779889,8.460555,-3.74922,40.463667
+"6156","Cocaine","Europe","Libyan Arab Jamahiriya","Spain",17.228331,26.3351,-3.74922,40.463667
+"6197","Cocaine","Europe","Colombia","Switzerland",-74.297333,4.570868,8.227512,46.818188
+"6360","Cocaine","Europe","Peru","Netherlands",-75.015152,-9.189967,5.291266,52.132633
+"6386","Cocaine","Europe","Panama","Netherlands",-80.782127,8.537981,5.291266,52.132633
+"6422","Cocaine","Europe","Boliva","France",-63.588653,-16.290154,2.213749,46.227638
+"6471","Heroin","Asia","Finland","Armenia",25.748151,61.92411,NA,NA
