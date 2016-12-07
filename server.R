@@ -4,7 +4,7 @@ library(maps)
 library(shiny)
 
 
-summary.data <- read.csv("/Users/ivanchub/Projects/drugs-visualization/summary.data.csv", stringsAsFactors = FALSE)
+summary.data <- read.csv("summary.data.csv", stringsAsFactors = FALSE)
 
 
 shinyServer(function(input, output) { 
@@ -37,11 +37,20 @@ shinyServer(function(input, output) {
   
   
   output$second_plot <- renderPlotly({
-    sorted_by_amount_seized = 
-      group_by(summary.data, Country.obtained...Departure.Country) %>% 
+    if (input$route == "Origin") {
+      sorted_by_amount_seized <- 
+        group_by(summary.data, Country.obtained...Departure.Country)
+    } else {
+      sorted_by_amount_seized <- 
+        group_by(summary.data, Destination.Country)
+    }
+    
+    sorted_by_amount_seized <- sorted_by_amount_seized %>% 
       summarize(count = n()) %>%
       filter(count > 1) %>%
       arrange(desc(count))
+    
+    colnames(sorted_by_amount_seized) <- c("area", "count")
     
     m = list(
       l = 100,
@@ -53,7 +62,7 @@ shinyServer(function(input, output) {
     
     plot_ly(
       sorted_by_amount_seized, 
-      x = ~sorted_by_amount_seized$Country.obtained...Departure.Country, 
+      x = ~sorted_by_amount_seized$area, 
       y = ~sorted_by_amount_seized$count, 
       type = 'bar', name = 'Country') %>%
         layout(

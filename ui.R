@@ -26,14 +26,14 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                             )
                    ), 
                    
-                   tabPanel('Test2',
+                   tabPanel('Seizures by Country',
                             
                             titlePanel('Country Statistics'),
                             
                             sidebarLayout(
                               
                               sidebarPanel(
-                                
+                                radioButtons('route', 'Place in Route', choices = c("Origin", "Destination"))
                               ),
                               
                               mainPanel(
