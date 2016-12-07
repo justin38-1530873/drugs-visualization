@@ -4,7 +4,7 @@ library(maps)
 library(shiny)
 
 
-summary.data <- read.csv("summary.data.csv", stringsAsFactors = FALSE)
+summary.data <- read.csv("/Users/ivanchub/Projects/drugs-visualization/summary.data.csv", stringsAsFactors = FALSE)
 
 
 shinyServer(function(input, output) { 
@@ -37,13 +37,32 @@ shinyServer(function(input, output) {
   
   
   output$second_plot <- renderPlotly({
-    Animals <- c("giraffes", "orangutans", "monkeys")
-    SF_Zoo <- c(20, 14, 23)
-    LA_Zoo <- c(12, 18, 29)
-    data <- data.frame(Animals, SF_Zoo, LA_Zoo)
+    sorted_by_amount_seized = 
+      group_by(summary.data, Country.obtained...Departure.Country) %>% 
+      summarize(count = n()) %>%
+      filter(count > 1) %>%
+      arrange(desc(count))
     
-    plot_ly(data, x = ~Animals, y = ~SF_Zoo, type = 'bar', name = 'SF Zoo') %>%
-      add_trace(y = ~LA_Zoo, name = 'LA Zoo') %>%
-      layout(yaxis = list(title = 'Count'), barmode = 'group')
+    m = list(
+      l = 100,
+      r = 0,
+      b = 300,
+      t = 20,
+      pad = 0
+    )
+    
+    plot_ly(
+      sorted_by_amount_seized, 
+      x = ~sorted_by_amount_seized$Country.obtained...Departure.Country, 
+      y = ~sorted_by_amount_seized$count, 
+      type = 'bar', name = 'Country') %>%
+        layout(
+          title="",
+          yaxis = list(title = 'Amout of Seizures'), 
+          barmode = 'group',
+          xaxis = list(categoryarray = count, categoryorder = "array", title = "Country"),
+          autosize = F,
+          height= 800,
+          margin = m)
   })
 })
