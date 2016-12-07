@@ -28,7 +28,7 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                    
                    tabPanel('Test2',
                             
-                            titlePanel('In progress'),
+                            titlePanel('Country Statistics'),
                             
                             sidebarLayout(
                               
@@ -37,7 +37,7 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                               ),
                               
                               mainPanel(
-                                
+                                plotlyOutput("second_plot")
                               )
                             )
                    )

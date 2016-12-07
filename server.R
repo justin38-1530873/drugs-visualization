@@ -34,4 +34,16 @@ shinyServer(function(input, output) {
    arrows(x0 = selected.data$long.country.obtained, y0 = selected.data$lat.country.obtained, x1 = selected.data$long.destination.country, y1 = selected.data$lat.destination.country, col = "red", lwd = .4)
   })
   
+  
+  
+  output$second_plot <- renderPlotly({
+    Animals <- c("giraffes", "orangutans", "monkeys")
+    SF_Zoo <- c(20, 14, 23)
+    LA_Zoo <- c(12, 18, 29)
+    data <- data.frame(Animals, SF_Zoo, LA_Zoo)
+    
+    plot_ly(data, x = ~Animals, y = ~SF_Zoo, type = 'bar', name = 'SF Zoo') %>%
+      add_trace(y = ~LA_Zoo, name = 'LA Zoo') %>%
+      layout(yaxis = list(title = 'Count'), barmode = 'group')
+  })
 })
