@@ -4,7 +4,8 @@ library(maps)
 library(shiny)
 
 
-summary.data <- read.csv("/Users/ivanchub/Projects/drugs-visualization/summary.data.csv", stringsAsFactors = FALSE)
+summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)
+import.data <- read.csv('./data/importdata.csv', stringsAsFactors = FALSE)
 
 
 shinyServer(function(input, output) { 
@@ -85,4 +86,34 @@ shinyServer(function(input, output) {
   output$date_plot <- renderPlotly({
     summary.data
   })
+  
+  
+  
+  output$import.map <- renderPlotly({ 
+    # light grey boundaries
+    l <- list(color = toRGB("grey"), width = 0.5)
+    
+    # specify map projection/options
+    g <- list(
+      showframe = FALSE,
+      showcoastlines = FALSE,
+      projection = list(type = 'Mercator')
+    )
+    
+    eq <- paste0("~", input$selectDrug)
+    
+    p <- plot_geo(import.data) %>%
+      add_trace(
+        z = eval(parse(text = eq)), color = eval(parse(text = eq)), colors = 'Reds',
+        text = ~Destination.Country, locations = ~code, marker = list(line = 1)
+      ) %>%
+      colorbar(title = 'Drug Seizures (in kg)') %>%
+      layout(
+        title = 'International Drug Imports',
+        geo = g
+      )
+    return(p)
+    
+    
+  })  
 })

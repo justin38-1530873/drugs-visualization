@@ -6,7 +6,7 @@ library(markdown)
 
 
 #drug.data <- read.csv('./data/2011-2015_Drug_data.csv', stringsAsFactors = FALSE)
-summary.data <- read.csv("summary.data.csv", stringsAsFactors = FALSE)  
+summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)  
 
 shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
           
@@ -25,6 +25,23 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                               )
                             )
                    ), 
+                   
+                   tabPanel('Test',
+                            titlePanel('Drug Imports'),
+                            
+                            sidebarLayout(
+                              
+                              sidebarPanel(
+                                selectInput("selectDrug", label = h3("Select drug"), 
+                                            choices = list("Heroin" = "Heroin", "Cocaine" = "Cocaine", "Cannabis" = "Cannabis"))                               
+                              ),
+                              
+                              mainPanel(
+                                plotlyOutput('import.map')
+                              )
+                            )
+                   ),                    
+                   
                    
                    tabPanel('Seizures by Country',
                             
