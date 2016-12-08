@@ -1,8 +1,14 @@
+### INFO 201 FINAL PROJECT - DRUG TRAFFICKING
+## Ian Figon, Lukas Guericke, Ivan Chub, Ankush Puri
+
+# Importing necessary libraries
+
 library(dplyr)
 library(plotly)
 library(maps)
 library(shiny)
 
+# Importing necessary .csv's
 
 summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)
 import.data <- read.csv('./data/importdata.csv', stringsAsFactors = FALSE)
@@ -10,33 +16,42 @@ import.data <- read.csv('./data/importdata.csv', stringsAsFactors = FALSE)
 
 shinyServer(function(input, output) { 
 
-  
-
+  # Map for Drug Trafficking Routes tab
   
   output$map <- renderPlot({
    
   #filters data set by drug based on input
+    
    selected.data <- switch (input$Drug,
       "Cocaine" = filter(summary.data, Drug.Name == "Cocaine"),
       "Heroin"= filter(summary.data, Drug.Name == "Heroin"),
       "Cannabis Herb (Marijuana)" = filter(summary.data, Drug.Name == "Cannabis Herb (Marijuana)")
    )
+   
   #filters data based on region
+   
    selected.data <- switch(input$Region, 
     "Europe" = filter(selected.data, Region == "Europe"),
     "Americas" = filter(selected.data, Region == "Americas"),
     "Africa" = filter(selected.data, Region == "Africa"),
     "Asia" = filter(selected.data, Region == "Asia")
     ) 
+   
   #displays map
+   
     map("world", regions= ".", mar = c(.5,.5,.5,.5), namefield = )
- #adds points to map 
+    
+  #adds points to map 
+    
       points(x = selected.data$long.country.obtained, y = selected.data$lat.country.obtained, col = "red")
    points(x =  selected.data$long.destination.country, y = selected.data$lat.destination.country, col = "red")
    arrows(x0 = selected.data$long.country.obtained, y0 = selected.data$lat.country.obtained, x1 = selected.data$long.destination.country, y1 = selected.data$lat.destination.country, col = "red", lwd = .4)
   })
   
-  output$second_plot <- renderPlotly({
+  
+  # Plot for Seizures by Country tab
+  
+   output$second_plot <- renderPlotly({
     sorted_by_amount_seized <- summary.data
     
     if (input$drug_bar_graph != "All") {
@@ -83,26 +98,37 @@ shinyServer(function(input, output) {
         margin = m)
   })
   
-  output$date_plot <- renderPlotly({
+   output$date_plot <- renderPlotly({
     summary.data
   })
   
   
+  # Map for Seized Drug Imports tab
   
   output$import.map <- renderPlotly({ 
+    
     # light grey boundaries
+    
     l <- list(color = toRGB("grey"), width = 0.5)
     
     # specify map projection/options
+    
     g <- list(
       showframe = FALSE,
       showcoastlines = FALSE,
       projection = list(type = 'Mercator')
     )
     
+    # Creates necessary string for widget to work
+    
     eq <- paste0("~", input$selectDrug)
     
+    # Creates the map
+    
     p <- plot_geo(import.data) %>%
+      
+      # Sets the map setting including color and data
+      
       add_trace(
         z = eval(parse(text = eq)), color = eval(parse(text = eq)), colors = 'Reds',
         text = ~Destination.Country, locations = ~code, marker = list(line = 1)
@@ -112,8 +138,9 @@ shinyServer(function(input, output) {
         title = 'International Drug Imports',
         geo = g
       )
+    
+    # Returns map
+    
     return(p)
-    
-    
   })  
 })

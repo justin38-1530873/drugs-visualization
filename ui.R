@@ -1,24 +1,36 @@
+### INFO 201 FINAL PROJECT - DRUG TRAFFICKING
+## Ian Figon, Lukas Guericke, Ivan Chub, Ankush Puri
+
+# Importing necessary libraries
+
 library(shiny)
 library(plotly)
 library(markdown)
 
-#setwd("~/GitHub/drugs-visualization")
+# Importing necessary .csv's
 
-
-#drug.data <- read.csv('./data/2011-2015_Drug_data.csv', stringsAsFactors = FALSE)
 summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)  
 
 shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
+                   
+                   # Tab for Drug Trafficking Routes
           
-                    tabPanel('Home-Lukas',
+                    tabPanel('Drug Trafficking Routes',
+                             
+                             # Sets title
+                             
                             titlePanel('Map of Drug Trafficking Routes'),
                             
                             sidebarLayout(
+                              
+                              # Adds widgets on the side where you can choose a drug and region
                               
                               sidebarPanel(
                                 radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name)),
                                 selectInput('Region', 'Region', choices = unique(summary.data$Region))
                               ),
+                              
+                              # Adds map
                               
                               mainPanel(
                                 plotOutput("map")
@@ -26,15 +38,24 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                             )
                    ), 
                    
-                   tabPanel('Test',
+                   # Tab for Seized Drug Imports
+                   
+                   tabPanel('Seized Drug Imports',
+                            
+                            # Sets title
+                            
                             titlePanel('Drug Imports'),
                             
                             sidebarLayout(
+                              
+                              # Adds widgets that allow you to choose a drug
                               
                               sidebarPanel(
                                 selectInput("selectDrug", label = h3("Select drug"), 
                                             choices = list("Heroin" = "Heroin", "Cocaine" = "Cocaine", "Cannabis" = "Cannabis"))                               
                               ),
+                              
+                              # Adds map
                               
                               mainPanel(
                                 plotlyOutput('import.map')
@@ -42,24 +63,33 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                             )
                    ),                    
                    
+                   # Adds seizures by country tab
                    
                    tabPanel('Seizures by Country',
+                            
+                            # Sets title
                             
                             titlePanel('Country Statistics'),
                             
                             sidebarLayout(
+                              
+                              # Adds widgets on the side that allow you to choose origin/destination and drug
                               
                               sidebarPanel(
                                 radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
                                 selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
                               ),
                               
+                              # Adds plot
+                              
                               mainPanel(
-                                includeMarkdown("seizures_by_country.md"),
+                                includeMarkdown("./descriptions/seizures_by_country.md"),
                                 plotlyOutput("second_plot")
                               )
                             )
                    ),
+                   
+                   # Adds Seizures by Date tab
                    
                    tabPanel('Seizures by Date',
                             
