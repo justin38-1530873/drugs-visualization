@@ -11,7 +11,8 @@ library(markdown)
 
 summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)  
 
-shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
+shinyUI(navbarPage(theme = "bootstrap.css",
+  'Drug Distribution from 2011 to 2015',
                    
                    # Tab for Drug Trafficking Routes
           
