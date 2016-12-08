@@ -36,18 +36,26 @@ shinyServer(function(input, output) {
   })
   
   output$second_plot <- renderPlotly({
+    sorted_by_amount_seized <- summary.data
+    
+    if (input$drug_bar_graph != "All") {
+      sorted_by_amount_seized <- sorted_by_amount_seized %>% filter(Drug.Name == input$drug_bar_graph)
+    }
+    
     if (input$route == "Origin") {
       sorted_by_amount_seized <- 
-        group_by(summary.data, Country.obtained...Departure.Country)
+        group_by(sorted_by_amount_seized, Country.obtained...Departure.Country)
     } else {
       sorted_by_amount_seized <- 
-        group_by(summary.data, Destination.Country)
+        group_by(sorted_by_amount_seized, Destination.Country)
     }
     
     sorted_by_amount_seized <- sorted_by_amount_seized %>% 
       summarize(count = n()) %>%
       filter(count > 1) %>%
       arrange(desc(count))
+    
+    
     
     colnames(sorted_by_amount_seized) <- c("area", "count")
     

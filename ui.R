@@ -33,7 +33,8 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                             sidebarLayout(
                               
                               sidebarPanel(
-                                radioButtons('route', 'Place in Route', choices = c("Origin", "Destination"))
+                                radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
+                                selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
                               ),
                               
                               mainPanel(
