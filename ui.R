@@ -41,5 +41,21 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                                 plotlyOutput("second_plot")
                               )
                             )
+                   ),
+                   
+                   tabPanel('Seizures by Date',
+                            
+                            titlePanel('Date Statistics'),
+                            
+                            sidebarLayout(
+                              
+                              sidebarPanel(
+
+                              ),
+                              
+                              mainPanel(
+                                plotlyOutput("date_plot")
+                              )
+                            )
                    )
 ))

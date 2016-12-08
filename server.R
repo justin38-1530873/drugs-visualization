@@ -4,7 +4,7 @@ library(maps)
 library(shiny)
 
 
-summary.data <- read.csv("summary.data.csv", stringsAsFactors = FALSE)
+summary.data <- read.csv("/Users/ivanchub/Projects/drugs-visualization/summary.data.csv", stringsAsFactors = FALSE)
 
 
 shinyServer(function(input, output) { 
@@ -82,4 +82,7 @@ shinyServer(function(input, output) {
         margin = m)
   })
   
+  output$date_plot <- renderPlotly({
+    summary.data$
+  })
 })
