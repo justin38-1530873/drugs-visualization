@@ -57,7 +57,7 @@ final.data <- full_join(final.data, lonlat.destination.country, by ='Destination
 
 #summarydata 
 
-summary.data <- unique(final.data[, c('Drug.Name', 'Region' ,'Country.obtained...Departure.Country', 'Destination.Country', 'long.country.obtained','lat.country.obtained','long.destination.country', 'lat.destination.country')])
+summary.data <- unique(final.data[, c('Drug.Name', 'Region', 'Seizure.Date' ,'Country.obtained...Departure.Country', 'Destination.Country', 'long.country.obtained','lat.country.obtained','long.destination.country', 'lat.destination.country')])
 
 write.csv(summary.data, file = "summary.data.csv")
 
