@@ -63,7 +63,7 @@ shinyServer(function(input, output) {
       l = 100,
       r = 0,
       b = 300,
-      t = 20,
+      t = 50,
       pad = 0
     )
     
@@ -73,7 +73,7 @@ shinyServer(function(input, output) {
       y = ~sorted_by_amount_seized$count, 
       type = 'bar', name = 'Country') %>%
       layout(
-        title="",
+        title="Drug Seizures by Country",
         yaxis = list(title = 'Amout of Seizures'), 
         barmode = 'group',
         xaxis = list(categoryarray = count, categoryorder = "array", title = "Country"),
