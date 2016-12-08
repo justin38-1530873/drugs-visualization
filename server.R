@@ -35,4 +35,43 @@ shinyServer(function(input, output) {
    arrows(x0 = selected.data$long.country.obtained, y0 = selected.data$lat.country.obtained, x1 = selected.data$long.destination.country, y1 = selected.data$lat.destination.country, col = "red", lwd = .4)
   })
   
+  output$second_plot <- renderPlotly({
+    if (input$route == "Origin") {
+      sorted_by_amount_seized <- 
+        group_by(summary.data, Country.obtained...Departure.Country)
+    } else {
+      sorted_by_amount_seized <- 
+        group_by(summary.data, Destination.Country)
+    }
+    
+    sorted_by_amount_seized <- sorted_by_amount_seized %>% 
+      summarize(count = n()) %>%
+      filter(count > 1) %>%
+      arrange(desc(count))
+    
+    colnames(sorted_by_amount_seized) <- c("area", "count")
+    
+    m = list(
+      l = 100,
+      r = 0,
+      b = 300,
+      t = 20,
+      pad = 0
+    )
+    
+    plot_ly(
+      sorted_by_amount_seized, 
+      x = ~sorted_by_amount_seized$area, 
+      y = ~sorted_by_amount_seized$count, 
+      type = 'bar', name = 'Country') %>%
+      layout(
+        title="",
+        yaxis = list(title = 'Amout of Seizures'), 
+        barmode = 'group',
+        xaxis = list(categoryarray = count, categoryorder = "array", title = "Country"),
+        autosize = F,
+        height= 800,
+        margin = m)
+  })
+  
 })
