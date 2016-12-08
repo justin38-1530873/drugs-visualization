@@ -70,7 +70,7 @@ not.unknown.kilo <- filter(kilo.data, Country.obtained...Departure.Country != ""
   filter(Region == "Americas") %>% 
   filter(Destination.Country != "" & Destination.Country != "Unknown")
 
-group_by(not.unknown.kilo, Country.obtained...Departure.Country, Destination.Country) %>% 
+group_by(not.unknown.kilo,Drug.Name, Country.obtained...Departure.Country, Destination.Country) %>% 
   summarize_each(funs(sum(Amount)))
 
 
