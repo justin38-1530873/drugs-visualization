@@ -1,6 +1,6 @@
 library(shiny)
 library(plotly)
-
+library(markdown)
 
 #setwd("~/GitHub/drugs-visualization")
 
@@ -38,6 +38,7 @@ shinyUI(navbarPage('Drug Distribution from 2011 to 2015',
                               ),
                               
                               mainPanel(
+                                includeMarkdown("seizures_by_country.md"),
                                 plotlyOutput("second_plot")
                               )
                             )

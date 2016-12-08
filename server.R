@@ -83,6 +83,6 @@ shinyServer(function(input, output) {
   })
   
   output$date_plot <- renderPlotly({
-    summary.data$
+    summary.data
   })
 })
