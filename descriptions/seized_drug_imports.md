@@ -1,0 +1,1 @@
+This map visualizes the amount of drugs siezed that were bound for each country. This gives a general idea of the consumption of each drug for each country. You can choose between Heroin, Cocaine, and Cannabis. Not all countries appear for every drug which means that there were no drugs seized that were bound for that country.

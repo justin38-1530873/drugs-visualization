@@ -12,7 +12,7 @@ library(markdown)
 summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)  
 
 shinyUI(navbarPage(theme = "bootstrap.css",
-  'Drug Distribution from 2011 to 2015',
+  'Drug Distribution from 2010 to 2015',
                    
                     # Tab for Drug Trafficking Routes
                     
@@ -60,8 +60,8 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                             # Adds map
                             
                             mainPanel(
-                              plotlyOutput('import.map'),
-                              includeMarkdown("./descriptions/seizures_by_country.md")
+                              includeMarkdown("./descriptions/seized_drug_imports.md"),
+                              plotlyOutput('import.map')
                             )
                           )
                     ),                    
@@ -117,21 +117,14 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                           )
                     ),
   
+                    # Adds documentation that specifies the purpose of the project and sources
   
-  
-                    tabPanel('Documentation',
+                    tabPanel("Documentation",
                              
-                             sidebarLayout(
-                               
-                               sidebarPanel(
-                                 
-                               ),
-                               
-                               mainPanel(
-                                 
-                                 includeMarkdown("./descriptions/documentation.md")
-                                 
-                               )
+                             # Panel that contains documentation
+                             
+                             mainPanel(
+                               includeMarkdown("./descriptions/documentation.md")
                              )
                     )
 ))

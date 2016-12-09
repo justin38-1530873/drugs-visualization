@@ -50,12 +50,10 @@ shinyServer(function(input, output) {
   
   # Plot for Seizures by Country tab
   
-  # Plot for Seizures by Country tab
-  
-  output$second_plot <- renderPlotly({
+   output$second_plot <- renderPlotly( {
     sorted_by_amount_seized <- summary.data
     
-    # Sets up data from widgets
+    # Sorts data depending on widget
     
     if (input$drug_bar_graph != "All") {
       sorted_by_amount_seized <- sorted_by_amount_seized %>% filter(Drug.Name == input$drug_bar_graph)
@@ -69,18 +67,18 @@ shinyServer(function(input, output) {
         group_by(sorted_by_amount_seized, Destination.Country)
     }
     
-    # Formats and arranges data
+    # Formats and arranges data for plot
     
     sorted_by_amount_seized <- sorted_by_amount_seized %>% 
       summarize(count = n()) %>%
       filter(count > 1) %>%
       arrange(desc(count))
     
-    
+    # Names columns
     
     colnames(sorted_by_amount_seized) <- c("area", "count")
     
-    # Builds plot basics
+    # Sets up plot dimensions
     
     m = list(
       l = 100,
@@ -90,7 +88,7 @@ shinyServer(function(input, output) {
       pad = 0
     )
     
-    # Creates plot
+    # Renders plot
     
     plot_ly(
       sorted_by_amount_seized, 
@@ -98,7 +96,7 @@ shinyServer(function(input, output) {
       y = ~sorted_by_amount_seized$count, 
       type = 'bar', name = 'Country') %>%
       
-      # Layout of plot
+      # Sets layout of plot
       
       layout(
         title="Drug Seizures by Country",
@@ -110,11 +108,7 @@ shinyServer(function(input, output) {
         margin = m)
   })
   
-   output$date_plot <- renderPlotly({
-    summary.data
-  })
-  
-  
+   
   # Map for Seized Drug Imports tab
   
   output$import.map <- renderPlotly( { 
@@ -145,7 +139,7 @@ shinyServer(function(input, output) {
         z = eval(parse(text = eq)), color = eval(parse(text = eq)), colors = 'Reds',
         text = ~Destination.Country, locations = ~code, marker = list(line = 1)
       ) %>%
-      colorbar(title = 'Drug Seizures (in kg)') %>%
+      colorbar(title = 'Amount Seized (in kg)') %>%
       layout(
         title = 'International Drug Imports',
         geo = g
@@ -159,13 +153,6 @@ shinyServer(function(input, output) {
   # Plot for Drug Seizures over Time tab
   
   output$date_plot <- renderPlotly( {
-    
-    
-    
-    
-    
-    
-    
     
   } )  
 })

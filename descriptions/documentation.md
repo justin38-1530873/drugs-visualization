@@ -17,5 +17,9 @@ Drug trafficking is a massive hidden industry that accounts for an estimated 1% 
 
 All of it can be found in this github repository: https://github.com/lukasg33/drugs-visualization
 
+### Source for Drug trafficking facts:
+
+http://archive.boston.com/news/world/europe/articles/2005/06/30/un_report_puts_worlds_illicit_drug_trade_at_estimated_321b/
+
 
 
