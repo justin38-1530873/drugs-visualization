@@ -1,4 +1,3 @@
-
 library(dplyr)
 
 country.codes <- read.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv', stringsAsFactors = FALSE)  
@@ -14,7 +13,6 @@ summary.table3 <- group_by(not.unknown, Destination.Country) %>% filter(Drug.Uni
 
 summary.table.half <- full_join(summary.table1, summary.table2)
 summary.table <- full_join(summary.table.half, summary.table3)
-
 
 
 summary.table$Destination.Country <- gsub( "Gambia" ,"Gambia, The", summary.table$Destination.Country)
@@ -35,7 +33,3 @@ colnames(country.codes) <- c("Destination.Country", "code")
 summary.table <- full_join(summary.table, country.codes)
 
 write.csv(summary.table, file = "importdata.csv")
-
-  
-
-
