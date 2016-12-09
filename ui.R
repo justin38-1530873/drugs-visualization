@@ -34,7 +34,8 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                             # Adds map
                             
                             mainPanel(
-                              plotOutput("map")
+                              plotOutput("map"),
+                              includeMarkdown("./descriptions/drug_trafficking_routes.md")
                             )
                           )
                     ), 
@@ -59,7 +60,8 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                             # Adds map
                             
                             mainPanel(
-                              plotlyOutput('import.map')
+                              plotlyOutput('import.map'),
+                              includeMarkdown("./descriptions/seizures_by_country.md")
                             )
                           )
                     ),                    
@@ -67,27 +69,27 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                     # Tab for Seizures by Country
                     
                     tabPanel('Seizures by Country',
-                    
-                          # Sets title
-                          
-                          titlePanel('Country Statistics'),
-                          
-                          sidebarLayout(
-                          
-                            # Adds widgets on the side that allow you to choose origin/destination and drug
-                            
-                            sidebarPanel(
-                              radioButtons('Route', 'Place in Route', choices = c("Origin", "Destination")),
-                              selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
-                            ),
-                            
-                            # Adds plot and description
-                            
-                            mainPanel(
-                              includeMarkdown("./descriptions/seizures_by_country.md"),
-                              plotlyOutput("second_plot")
-                            )
-                          )
+                             
+                             # Sets title
+                             
+                             titlePanel('Country Statistics'),
+                             
+                             sidebarLayout(
+                               
+                               # Adds widgets on the side that allow you to choose origin/destination and drug
+                               
+                               sidebarPanel(
+                                 radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
+                                 selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
+                               ),
+                               
+                               # Adds plot
+                               
+                               mainPanel(
+                                 includeMarkdown("./descriptions/seizures_by_country.md"),
+                                 plotlyOutput("second_plot")
+                               )
+                             )
                     ),
                     
                     # Tab for Seizures by Date
@@ -113,5 +115,23 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                               plotlyOutput("date_plot")
                             )
                           )
+                    ),
+  
+  
+  
+                    tabPanel('Documentation',
+                             
+                             sidebarLayout(
+                               
+                               sidebarPanel(
+                                 
+                               ),
+                               
+                               mainPanel(
+                                 
+                                 includeMarkdown("./descriptions/documentation.md")
+                                 
+                               )
+                             )
                     )
 ))
