@@ -196,7 +196,7 @@ shinyServer(function(input, output) {
     
     # Maintain order of months
     
-    seized_over_time$month <- factor(data$month, levels = data[["month"]])
+    seized_over_time$months <- factor(data$months, levels = data[["months"]])
     
     # Renders the plot
     
