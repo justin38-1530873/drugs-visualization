@@ -11,4 +11,6 @@ heroin.table <- group_by(known, Seizure.Date) %>% filter(Drug.Unit == "Kilogram"
 drug.table.half <- full_join(cannabis.table, cocaine.table)
 drug.table <- full_join(drug.table.half, heroin.table)
 
-write.csv(drug.table, file = "datedata.csv")
+drug.table.year <- drug.table[order(as.Date(drug.table$Seizure.Date, format="%m/%d/%Y")),]
+
+write.csv(drug.table.year, file = "datedata.csv")
