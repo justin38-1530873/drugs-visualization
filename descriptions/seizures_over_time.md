@@ -1,0 +1,1 @@
+The line graph below shows the distribution of drug seizures sorted chronologically between 2010 to 2015. You have the option of viewing statistics for seizures by drug.
