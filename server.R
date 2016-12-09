@@ -192,7 +192,7 @@ shinyServer(function(input, output) {
     
     # Final data set to be used
     
-    seized_over_time_final <- data.frame(month, seized_over_time)
+    seized_over_time_final <- data.frame(months, seized_over_time)
     
     # Maintain order of months
     
