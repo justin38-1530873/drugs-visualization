@@ -200,7 +200,7 @@ shinyServer(function(input, output) {
     
     # Renders the plot
     
-    p <- plot_ly(seized_over_time_final, x = ~month, y = seized_over_time,
+    p <- plot_ly(seized_over_time_final, x = ~months, y = seized_over_time,
                  name = 'Selected Year and Drug Plot', type = 'scatter',
                  mode = 'lines', line = list(color = 'rgb(255, 0, 0)', width = 4)) %>%
       
@@ -210,6 +210,7 @@ shinyServer(function(input, output) {
              xaxis = list(title = "Months"),
              yaxis = list(title = "Amount of Drugs Seized (kg)"))
     
+
   } )
   
   
