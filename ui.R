@@ -70,26 +70,26 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                     
                     tabPanel('Seizures by Country',
                              
-                             # Sets title
+                          # Sets title
                              
-                             titlePanel('Country Statistics'),
+                          titlePanel('Country Statistics'),
                              
-                             sidebarLayout(
+                          sidebarLayout(
                                
-                               # Adds widgets on the side that allow you to choose origin/destination and drug
+                            # Adds widgets on the side that allow you to choose origin/destination and drug
                                
-                               sidebarPanel(
-                                 radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
-                                 selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
-                               ),
+                            sidebarPanel(
+                              radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
+                              selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
+                            ),
                                
-                               # Adds plot
+                            # Adds plot and description
                                
-                               mainPanel(
-                                 includeMarkdown("./descriptions/seizures_by_country.md"),
-                                 plotlyOutput("second_plot")
-                               )
-                             )
+                            mainPanel(
+                              includeMarkdown("./descriptions/seizures_by_country.md"),
+                              plotlyOutput("second_plot")
+                            )
+                          )
                     ),
                     
                     # Tab for Seizures by Date
@@ -105,7 +105,8 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                             # Adds widgets on the side that allow you to choose a drug
                             
                             sidebarPanel(
-                              radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name))
+                              radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name)),
+                              selectInput('Year', 'Year', choices = list("2010" = "2010", "2013" = "2013", "2014" = "2014", "2015" = "2015"))
                             ),
                             
                             # Adds plot and description

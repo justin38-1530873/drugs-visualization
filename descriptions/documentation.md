@@ -5,7 +5,7 @@
 
 ### Where did we start?
 
-Our raw data came from the United Nations Office on Drugs and Crime's data on significant seizures whose website is here: https://data.unodc.org/
+Our raw data came from the United Nations Office on Drugs and Crime's data on significant seizures; website is here: https://data.unodc.org/
 
 The data set contains various observations on the drug seized, date seized, amount, destination country, producing country, and more. We significantly filtered the data set in order to more effectively analyze the data.
 

@@ -1,1 +1,1 @@
-The line graph below shows the distribution of drug seizures sorted chronologically between 2010 to 2015. You have the option of viewing statistics for seizures by drug.
+The line graph below shows the distribution of drug seizures sorted chronologically between 2010 to 2015. This provides a general idea of the consumption of each drug over time. One can choose betwwen Heroin, Cocaine, and Cannabis.
