@@ -14,97 +14,104 @@ summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)
 shinyUI(navbarPage(theme = "bootstrap.css",
   'Drug Distribution from 2011 to 2015',
                    
-                   # Tab for Drug Trafficking Routes
-          
+                    # Tab for Drug Trafficking Routes
+                    
                     tabPanel('Drug Trafficking Routes',
-                             
-                             # Sets title
-                             
-                            titlePanel('Map of Drug Trafficking Routes'),
+                    
+                          # Sets title
+                          
+                          titlePanel('Map of Drug Trafficking Routes'),
+                          
+                          sidebarLayout(
+                          
+                            # Adds widgets on the side where you can choose a drug and region
                             
-                            sidebarLayout(
-                              
-                              # Adds widgets on the side where you can choose a drug and region
-                              
-                              sidebarPanel(
-                                radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name)),
-                                selectInput('Region', 'Region', choices = unique(summary.data$Region))
-                              ),
-                              
-                              # Adds map
-                              
-                              mainPanel(
-                                plotOutput("map")
-                              )
+                            sidebarPanel(
+                              radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name)),
+                              selectInput('Region', 'Region', choices = unique(summary.data$Region))
+                            ),
+                            
+                            # Adds map
+                            
+                            mainPanel(
+                              plotOutput("map")
                             )
-                   ), 
-                   
-                   # Tab for Seized Drug Imports
-                   
-                   tabPanel('Seized Drug Imports',
+                          )
+                    ), 
+                    
+                    # Tab for Seized Drug Imports
+                    
+                    tabPanel('Seized Drug Imports',
+                    
+                          # Sets title
+                          
+                          titlePanel('Drug Imports'),
+                          
+                          sidebarLayout(
+                          
+                            # Adds widgets that allow you to choose a drug
                             
-                            # Sets title
+                            sidebarPanel(
+                              selectInput("selectDrug", label = h3("Select Drug"), 
+                                          choices = list("Heroin" = "Heroin", "Cocaine" = "Cocaine", "Cannabis" = "Cannabis"))                               
+                            ),
                             
-                            titlePanel('Drug Imports'),
+                            # Adds map
                             
-                            sidebarLayout(
-                              
-                              # Adds widgets that allow you to choose a drug
-                              
-                              sidebarPanel(
-                                selectInput("selectDrug", label = h3("Select drug"), 
-                                            choices = list("Heroin" = "Heroin", "Cocaine" = "Cocaine", "Cannabis" = "Cannabis"))                               
-                              ),
-                              
-                              # Adds map
-                              
-                              mainPanel(
-                                plotlyOutput('import.map')
-                              )
+                            mainPanel(
+                              plotlyOutput('import.map')
                             )
-                   ),                    
-                   
-                   # Adds seizures by country tab
-                   
-                   tabPanel('Seizures by Country',
+                          )
+                    ),                    
+                    
+                    # Tab for Seizures by Country
+                    
+                    tabPanel('Seizures by Country',
+                    
+                          # Sets title
+                          
+                          titlePanel('Country Statistics'),
+                          
+                          sidebarLayout(
+                          
+                            # Adds widgets on the side that allow you to choose origin/destination and drug
                             
-                            # Sets title
+                            sidebarPanel(
+                              radioButtons('Route', 'Place in Route', choices = c("Origin", "Destination")),
+                              selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
+                            ),
                             
-                            titlePanel('Country Statistics'),
+                            # Adds plot and description
                             
-                            sidebarLayout(
-                              
-                              # Adds widgets on the side that allow you to choose origin/destination and drug
-                              
-                              sidebarPanel(
-                                radioButtons('route', 'Place in Route', choices = c("Origin", "Destination")),
-                                selectInput('drug_bar_graph', 'Drug', choices = union(c("All"), unique(summary.data$Drug.Name)))
-                              ),
-                              
-                              # Adds plot
-                              
-                              mainPanel(
-                                includeMarkdown("./descriptions/seizures_by_country.md"),
-                                plotlyOutput("second_plot")
-                              )
+                            mainPanel(
+                              includeMarkdown("./descriptions/seizures_by_country.md"),
+                              plotlyOutput("second_plot")
                             )
-                   ),
-                   
-                   # Adds Seizures by Date tab
-                   
-                   tabPanel('Seizures by Date',
+                          )
+                    ),
+                    
+                    # Tab for Seizures by Date
+                    
+                    tabPanel('Seizures by Date',
+                    
+                          # Sets title
+                          
+                          titlePanel('Date Statistics'),
+                          
+                          sidebarLayout(
+                          
+                            # Adds widgets on the side that allow you to choose a drug
                             
-                            titlePanel('Date Statistics'),
+                            sidebarPanel(
+                              radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name))
+                            ),
                             
-                            sidebarLayout(
-                              
-                              sidebarPanel(
-
-                              ),
-                              
-                              mainPanel(
-                                plotlyOutput("date_plot")
-                              )
+                            # Adds plot and description
+                            
+                            mainPanel(
+                              includeMarkdown("./descriptions/seizures_over_time.md"),
+                              plotlyOutput("date_plot")
                             )
-                   )
+                          )
+                    )
 ))

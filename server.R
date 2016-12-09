@@ -13,45 +13,44 @@ library(shiny)
 summary.data <- read.csv("./data/summary.data.csv", stringsAsFactors = FALSE)
 import.data <- read.csv('./data/importdata.csv', stringsAsFactors = FALSE)
 
-
 shinyServer(function(input, output) { 
 
   # Map for Drug Trafficking Routes tab
   
-  output$map <- renderPlot({
+  output$map <- renderPlot( {
    
-  #filters data set by drug based on input
+  # Filters data set by drug based on input
     
-   selected.data <- switch (input$Drug,
-      "Cocaine" = filter(summary.data, Drug.Name == "Cocaine"),
-      "Heroin"= filter(summary.data, Drug.Name == "Heroin"),
-      "Cannabis Herb (Marijuana)" = filter(summary.data, Drug.Name == "Cannabis Herb (Marijuana)")
-   )
+  selected.data <- switch (input$Drug,
+    "Cocaine" = filter(summary.data, Drug.Name == "Cocaine"),
+    "Heroin"= filter(summary.data, Drug.Name == "Heroin"),
+    "Cannabis Herb (Marijuana)" = filter(summary.data, Drug.Name == "Cannabis Herb (Marijuana)")
+  )
    
-  #filters data based on region
+  # Filters data based on region
    
-   selected.data <- switch(input$Region, 
+  selected.data <- switch(input$Region, 
     "Europe" = filter(selected.data, Region == "Europe"),
     "Americas" = filter(selected.data, Region == "Americas"),
     "Africa" = filter(selected.data, Region == "Africa"),
     "Asia" = filter(selected.data, Region == "Asia")
-    ) 
+  ) 
    
-  #displays map
+  # Displays map
    
-    map("world", regions= ".", mar = c(.5,.5,.5,.5), namefield = )
+  map("world", regions= ".", mar = c(.5,.5,.5,.5), namefield = )
     
-  #adds points to map 
+  # Adds points to map
     
-      points(x = selected.data$long.country.obtained, y = selected.data$lat.country.obtained, col = "red")
-   points(x =  selected.data$long.destination.country, y = selected.data$lat.destination.country, col = "red")
-   arrows(x0 = selected.data$long.country.obtained, y0 = selected.data$lat.country.obtained, x1 = selected.data$long.destination.country, y1 = selected.data$lat.destination.country, col = "red", lwd = .4)
-  })
+  points(x = selected.data$long.country.obtained, y = selected.data$lat.country.obtained, col = "red")
+  points(x =  selected.data$long.destination.country, y = selected.data$lat.destination.country, col = "red")
+  arrows(x0 = selected.data$long.country.obtained, y0 = selected.data$lat.country.obtained, x1 = selected.data$long.destination.country, y1 = selected.data$lat.destination.country, col = "red", lwd = .4)
+  } )
   
   
   # Plot for Seizures by Country tab
   
-   output$second_plot <- renderPlotly({
+   output$second_plot <- renderPlotly( {
     sorted_by_amount_seized <- summary.data
     
     if (input$drug_bar_graph != "All") {
@@ -70,8 +69,6 @@ shinyServer(function(input, output) {
       summarize(count = n()) %>%
       filter(count > 1) %>%
       arrange(desc(count))
-    
-    
     
     colnames(sorted_by_amount_seized) <- c("area", "count")
     
@@ -105,13 +102,13 @@ shinyServer(function(input, output) {
   
   # Map for Seized Drug Imports tab
   
-  output$import.map <- renderPlotly({ 
+  output$import.map <- renderPlotly( { 
     
-    # light grey boundaries
+    # Light grey boundaries
     
     l <- list(color = toRGB("grey"), width = 0.5)
     
-    # specify map projection/options
+    # Specify map projection/options
     
     g <- list(
       showframe = FALSE,
@@ -142,5 +139,18 @@ shinyServer(function(input, output) {
     # Returns map
     
     return(p)
-  })  
+  })
+  
+  # Plot for Drug Seizures over Time tab
+  
+  output$date_plot <- renderPlotly( {
+    
+    
+    
+    
+    
+    
+    
+    
+  } )  
 })
