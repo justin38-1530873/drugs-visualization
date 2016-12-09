@@ -1,0 +1,10 @@
+name: drugs-visualization
+title:
+account: ifigon
+server: shinyapps.io
+appId: 143420
+bundleId: 641839
+url: https://ifigon.shinyapps.io/drugs-visualization/
+when: 1481268874.90391
+asMultiple: FALSE
+asStatic: FALSE

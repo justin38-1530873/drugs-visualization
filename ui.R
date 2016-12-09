@@ -91,33 +91,7 @@ shinyUI(navbarPage(theme = "bootstrap.css",
                             )
                           )
                     ),
-                    
-                    # Tab for Seizures by Date
-                    
-                    tabPanel('Seizures by Date',
-                    
-                          # Sets title
-                          
-                          titlePanel('Date Statistics'),
-                          
-                          sidebarLayout(
-                          
-                            # Adds widgets on the side that allow you to choose a drug
-                            
-                            sidebarPanel(
-                              radioButtons('Drug', 'Drug', choices = unique(summary.data$Drug.Name)),
-                              selectInput('Year', 'Year', choices = list("2010" = "2010", "2013" = "2013", "2014" = "2014", "2015" = "2015"))
-                            ),
-                            
-                            # Adds plot and description
-                            
-                            mainPanel(
-                              includeMarkdown("./descriptions/seizures_over_time.md"),
-                              plotlyOutput("date_plot")
-                            )
-                          )
-                    ),
-  
+                  
                     # Adds documentation that specifies the purpose of the project and sources
   
                     tabPanel("Documentation",
