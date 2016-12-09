@@ -156,34 +156,34 @@ shinyServer(function(input, output) {
     # Series of 'if' statements to determine which data set to use for
     # sums of drug seizures organized by month by year
     
-    if (input$Year = "2010") {
-      if (input$Drug = "Cannabis") {
+    if (input$Year == "2010") {
+      if (input$Drug == "Cannabis") {
         seized_over_time <- sums.cannabis.2010
       } else if (input$Drug == "Cocaine") {
         seized_over_time <- sums.cocaine.2010
       } else {
         seized_over_time <- sums.heroin.2010
       }
-    } else if (input$Year = "2013") {
-      if (input$Drug = "Cannabis") {
+    } else if (input$Year == "2013") {
+      if (input$Drug == "Cannabis") {
         seized_over_time <- sums.cannabis.2013
-      } else if (input$Drug = "Cocaine") {
+      } else if (input$Drug == "Cocaine") {
         seized_over_time <- sums.cocaine.2013
       } else {
         seized_over_time <- sums.heroin.2013
       }
-    } else if (input$Year = "2014") {
-      if (input$Drug = "Cannabis") {
+    } else if (input$Year == "2014") {
+      if (input$Drug == "Cannabis") {
         seized_over_time <- sums.cannabis.2014
-      } else if (input$Drug = "Cocaine") {
+      } else if (input$Drug == "Cocaine") {
         seized_over_time <- sums.cocaine.2014
       } else {
         seized_over_time <- sums.heroin.2014
       }
     } else {
-      if (input$Drug = "Cannabis") {
+      if (input$Drug == "Cannabis") {
         seized_over_time <- sums.cannabis.2015
-      } else if (input$Drug = "Cocaine") {
+      } else if (input$Drug == "Cocaine") {
         seized_over_time <- sums.cocaine.2015
       } else {
         seized_over_time <- sums.heroin.2015
