@@ -210,6 +210,7 @@ shinyServer(function(input, output) {
              xaxis = list(title = "Months"),
              yaxis = list(title = "Amount of Drugs Seized (kg)"))
     
+    return(p)
 
   } )
   
